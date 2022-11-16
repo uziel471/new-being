@@ -1,6 +1,6 @@
 export default function Section1() {
   return (
-    <div className="w-full h-2/6 grid grid-cols-2 gap-4 place-items-center font-sans">
+    <div className="w-full h-1/6 grid grid-cols-2 gap-4 place-items-center font-sans">
       <div className="grid grid-rows-2 w-5/6">
         <div className="pb-8">
           <p className="text-6xl">Clínica de rehabilitación</p>

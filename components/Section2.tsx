@@ -1,6 +1,6 @@
 export default function Section2() {
   return (
-    <div className="w-full h-2/6 rounded-tl-[430px] bg-sky-500/100 z-19">
+    <div className="w-full rounded-tl-[430px] bg-sky-500/100 z-19">
       <div className="grid grid-cols-2 h-full place-items-end justify-items-center">
         <div className="grid place-items-end">
           <img src="../assets/doctor.png"  alt="doctor" />
