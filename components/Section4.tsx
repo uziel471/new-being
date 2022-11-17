@@ -1,6 +1,8 @@
+import Contact from './forms/Contact';
+
 export default function Section4() {
   return (
-    <div className="bg-blue-900 h-1/6 w-full">
+    <div className="bg-[#15284B] h-1/6 w-full">
       <div className="h-full w-full grid grid-cols-2 place-items-center">
         <div>
           <div className="grid grid-rows-3  gap-3 text-white bg-[#00000]">
@@ -29,8 +31,8 @@ export default function Section4() {
             </div>
           </div>
         </div>
-        <div className="">
-          <h1>Formulario</h1>
+        <div className="w-4/6 h-3/6">
+          <Contact />
         </div>
       </div>
     </div>
