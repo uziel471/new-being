@@ -1,5 +1,8 @@
 import React from 'react';
-import blueCircle from '../../../public/assets/steps.png';
+import Step1 from '../../../public/assets/step1.png';
+import Step2 from '../../../public/assets/step2.png';
+import Step3 from '../../../public/assets/step3.png';
+import Step4 from '../../../public/assets/step4.png';
 import Image from 'next/image';
 
 export default function StepsSection() {
@@ -9,9 +12,9 @@ export default function StepsSection() {
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
                     <div>
                         <Image
-                            src={blueCircle}
+                            src={Step1}
                             alt="step"
-                            className="w-[140px] h-[140px] br-[50px] p-[10px] rounded-full border-2 mb-4 border-cyan-300"
+                            className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
                         />
                     </div>
                     <div>
@@ -25,9 +28,9 @@ export default function StepsSection() {
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
                     <div>
                         <Image
-                            src={blueCircle}
+                            src={Step2}
                             alt="step"
-                            className="w-[140px] h-[140px] br-[50px] p-[10px] rounded-full border-2 mb-4 border-cyan-300"
+                            className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
                         />
                     </div>
                     <div>
@@ -40,9 +43,9 @@ export default function StepsSection() {
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
                     <div>
                         <Image
-                            src={blueCircle}
+                            src={Step3}
                             alt="step"
-                            className="w-[140px] h-[140px] br-[50px] p-[10px] rounded-full border-2 mb-4 border-cyan-300"
+                            className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
                         />
                     </div>
                     <div>
@@ -55,9 +58,9 @@ export default function StepsSection() {
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
                     <div>
                         <Image
-                            src={blueCircle}
+                            src={Step4}
                             alt="step"
-                            className="w-[140px] h-[140px] br-[50px] p-[10px] rounded-full border-2 mb-4 border-cyan-300"
+                            className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
                         />
                     </div>
                     <div>

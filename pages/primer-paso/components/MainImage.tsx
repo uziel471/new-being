@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../../public/assets/friends.jpg';
+import image from '../../../public/assets/friends.png';
 import Image from 'next/image';
 
 export default function MainImage() {

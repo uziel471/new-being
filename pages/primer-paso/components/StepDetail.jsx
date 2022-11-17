@@ -110,7 +110,7 @@ const steps = [
 export default function StepDetail() {
     return (
         <>
-            {steps.map((step) => {
+            {steps.map((step, index) => {
                 if (step.key === 'step4') {
                     return (
                         <div className="bg-blue-900 mt-[5%] ">
@@ -120,7 +120,7 @@ export default function StepDetail() {
                                         {step.title}
                                     </p>
                                     <Image
-                                        src={StepImage}
+                                        src={require(`../../../public/assets/step${index + 1}.png`)}
                                         alt="section1"
                                         width={250}
                                     />
@@ -152,7 +152,7 @@ export default function StepDetail() {
                                     {step.title}
                                 </p>
                                 <Image
-                                    src={StepImage}
+                                    src={require(`../../../public/assets/step${index + 1}.png`)}
                                     alt="section1"
                                     width={250}
                                 />
