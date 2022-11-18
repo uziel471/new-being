@@ -1,6 +1,6 @@
 export default function Section3() {
   return (
-    <div className="bg-blue-900">
+    <div className="bg-[#15284B]">
       <div className="h-full rounded-br-[430px] bg-white grid grid-cols-2 place-items-center">
         <div>
           <div className="grid grid-rows-2">
@@ -18,7 +18,7 @@ export default function Section3() {
           </div>
         </div>
         <div className="rounded-br-[430px]">
-          <img src="../assets/salaEspera.jpeg"  alt="section1" width={600} height={500} className="w-full rounded-br-[380px]"/>
+          <img src="../assets/salaEspera.jpg"  alt="section1" width={600} height={500} className="w-full rounded-br-[380px]"/>
         </div>
       </div>
     </div>
