@@ -20,7 +20,6 @@ type Props = {
 export default function CollapsDetail({
   array
 }: Props) {
-  console.log(array);
   return (
     <div>
       {array.map((object) => (
