@@ -9,6 +9,9 @@ import Section3 from './components/Section3'
 import SectionF from './components/SectionF'
 import Section4 from '../../components/Section4'
 import Footer from '../../components/Footer'
+import CarruselUnidad1 from './components/CarruselUnidad1';
+import CarruselUnidad2 from './components/CarruselUnidad2'
+import CarruselUnidad3 from './components/CarruselUnidad3'
 
 export default function index() {
   return (
@@ -19,13 +22,13 @@ export default function index() {
         <Unidades />
         <Section1 />
         <Actividades />
-        {/* carrousel section 1 */}
+        <CarruselUnidad1 />
         <Section2 />
         <Actividades2 />
-        {/* carrousel section 2 */}
+        <CarruselUnidad2 />
         <Section3 />
         <SectionF />
-        {/* carrousel section 3 */}
+        <CarruselUnidad3 />
         <Section4 />
         <Footer />
       </main>

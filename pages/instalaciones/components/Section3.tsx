@@ -23,7 +23,7 @@ export default function Section3() {
         <div className="w-auto h-auto grid place-items-center">
           {/* TODO: cambiar imagen por icon */}
           <img
-            src='../assets/UnidadPlayas.jpg'
+            src='../assets/CLINICA_SER-1.jpg'
             alt="Como Actuar"
             style={{ borderRadius: "55%", width: '400px', height: "400px" }}
           />

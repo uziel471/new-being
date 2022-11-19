@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import photo from '../../../public/assets/unidad2.jpg'
+
 export default function Section2() {
   return (
     <div className="w-full  text-[#15284B]">
@@ -22,8 +25,8 @@ export default function Section2() {
         </div>
         <div className="w-auto h-auto grid place-items-center">
           {/* TODO: cambiar imagen por icon */}
-          <img
-            src='../assets/UnidadPlayas.jpg'
+          <Image
+            src={photo}
             alt="Como Actuar"
             style={{ borderRadius: "55%", width: '400px', height: "400px" }}
           />

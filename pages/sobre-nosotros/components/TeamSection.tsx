@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import photo from '../../../public/assets/team.jpg';
+import photo from '../../../public/assets/team.png';
 import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 export default function TeamSection() {
@@ -10,10 +10,8 @@ export default function TeamSection() {
                 <div className="grid place-items-end w-full">
                     <Image
                         src={photo}
-                        width={700}
-                        height={600}
                         alt="doctor"
-                        className="w-full rounded-tl-[380px]"
+                        className="w-full rounded-tl-[380px] object-center z-10" 
                     />
                 </div>
                 <div className="bg-blue-900 grid justify-items-start w-full h-full">
