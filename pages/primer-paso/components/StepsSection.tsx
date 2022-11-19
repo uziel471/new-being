@@ -18,7 +18,7 @@ export default function StepsSection() {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl rounded-full border-2 mb-4 border-cyan-300 text-cyan-300">
+                        <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             1
                         </p>
                         <p className="text-3xl text-cyan-300">INFORMATE</p>
@@ -34,7 +34,7 @@ export default function StepsSection() {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl rounded-full border-2 mb-4 border-cyan-300 text-cyan-300">
+                        <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             2
                         </p>
                         <p className="text-3xl text-cyan-300">PIDE AYUDA <br /> PROFESIONAL</p>
@@ -49,7 +49,7 @@ export default function StepsSection() {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl rounded-full border-2 mb-4 border-cyan-300 text-cyan-300">
+                        <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             3
                         </p>
                         <p className="text-3xl text-cyan-300">INTERVENCION <br /> OPORTUNA</p>
@@ -64,7 +64,7 @@ export default function StepsSection() {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl rounded-full border-2 mb-4 border-cyan-300 text-cyan-300">
+                        <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             4
                         </p>
                         <p className="text-3xl text-cyan-300">TRATAMIENTO <br /> EFECTIVO</p>

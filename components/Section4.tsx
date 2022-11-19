@@ -2,7 +2,7 @@ import Contact from './forms/Contact';
 
 export default function Section4() {
   return (
-    <div className="bg-[#15284B] h-1/6  w-full">
+    <div className="bg-[#15284B] w-full">
       <div className="h-full w-full grid grid-cols-2 place-items-center">
         <div>
           <div className="grid grid-rows-3 mb-32 gap-3 text-white bg-[#00000]">

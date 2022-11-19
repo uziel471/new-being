@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import img from '../../../public/assets/fisico.png';
 
 const objects = [
     {
@@ -16,7 +15,7 @@ const objects = [
     },
     {
         title: 'Mental',
-        img: 'fisico.png',
+        img: 'mental.png',
         description: (
             <p className="text-lg mt-4">
                 Contamos con equipo especializado formado por médicos, <br />
@@ -27,7 +26,7 @@ const objects = [
     },
     {
         title: 'Espiritual',
-        img: 'fisico.png',
+        img: 'espiritual.png',
         description: (
             <p className="text-lg mt-4">
                 Buscamos el desarrollo espiritual de cada uno de los individuos <br />
@@ -38,7 +37,7 @@ const objects = [
     },
     {
         title: 'Social',
-        img: 'fisico.png',
+        img: 'social.png',
         description: (
             <p className="text-lg mt-4">
                 Cada persona puede reintegrarse a la sociedad, al trabajo y a <br />
@@ -58,9 +57,7 @@ export default function SpecificObjectives() {
                         {objective.title}
                     </h1>
                     <Image
-                        src={require(`../../../public/assets/objective${
-                            index + 1
-                        }.png`)}
+                        src={require(`../../../public/assets/${objective.img}`)}
                         alt="icon"
                         width={100}
                         height={100}
