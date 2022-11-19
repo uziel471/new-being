@@ -7,8 +7,9 @@ export default function MainImage() {
         <div className="w-full h-screen text-white z-1">
             <Image
                 src={image}
-                className="w-full h-full object-cover absolute mix-blend-overlay"
+                className="w-screen h-screen object-cover absolute mix-blend-overlay"
                 alt="Home"
+                loading="lazy"
             />
             <div className="w-full h-screen  pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center mt-[90px]">
                 <h1 className="md:text-7xl sm:text-6xl font-bold">

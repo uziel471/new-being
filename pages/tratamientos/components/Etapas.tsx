@@ -71,11 +71,11 @@ export default function Etapas() {
       </div>
       <div className="grid gap-8 grid-cols-2 justify-items-center place-content-center">
         {Etapas.map((etapa) => (
-          <div className="p-10">
-            <img src={etapa.image} alt="step1" width={150} height={150} />
+          <div className="p-10" key={etapa.title}>
+            <img src={etapa.image} alt="step1" width={150} height={150}  loading="lazy" />
             <h1 className="text-3xl pt-10 pb-10 text-[#00C1DE]">{etapa.title}</h1>
-            {etapa.description.map((item) => (
-              <p className="text-xl">{item}</p>
+            {etapa.description.map((item, i) => (
+              <p className="text-xl" key={etapa.title + i}>{item}</p>
             ))}
           </div>
         ))}

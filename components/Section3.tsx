@@ -18,7 +18,7 @@ export default function Section3() {
           </div>
         </div>
         <div className="rounded-br-[430px]">
-          <img src="../assets/salaEspera.jpg"  alt="section1" width={600} height={500} className="w-full rounded-br-[380px]"/>
+          <img src="../assets/salaEspera.jpg"  alt="section1" width={600} height={500} className="w-full rounded-br-[380px]"  loading="lazy"/>
         </div>
       </div>
     </div>

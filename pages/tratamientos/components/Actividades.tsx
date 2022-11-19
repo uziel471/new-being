@@ -20,6 +20,7 @@ export default function Actividades() {
             src="../assets/Actividades.jpg"
             alt="Como Actuar"
             style={{ borderRadius: "50%", width: "500px", height: "500px" }}
+            loading="lazy"
           />
         </div>
         <div className="w-[85%]">

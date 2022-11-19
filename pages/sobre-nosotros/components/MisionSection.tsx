@@ -13,6 +13,7 @@ export default function MisionSection() {
                             src={photo}
                             alt="..."
                             className="shadow-lg rounded-full max-w-full h-auto align-middle border-none"
+                            loading='lazy'
                         />
                     </div>
                 </div>

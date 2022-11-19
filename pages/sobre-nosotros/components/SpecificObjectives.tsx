@@ -52,7 +52,7 @@ export default function SpecificObjectives() {
     return (
         <div className="grid gap-4 grid-cols-2 ml-32 h-screen">
             {objects.map((objective, index) => (
-                <div className='mb-9'>
+                <div className='mb-9' key={objective.title + index}>
                     <h1 className="text-4xl font-bold mb-9">
                         {objective.title}
                     </h1>
@@ -61,22 +61,11 @@ export default function SpecificObjectives() {
                         alt="icon"
                         width={100}
                         height={100}
+                        loading="lazy"
                     />
                     {objective.description}
                 </div>
             ))}
-            {/* <div>
-                <h1 className="text-4xl font-bold mb-9">Fisico</h1>
-                <Image src={img} alt="icon" width={100} height={100} />
-                <p className="text-lg mt-4">
-                    Un desarrollo adecuado del físico, le permite a las personas
-                    en tratamiento recuperar la confianza en sí mismo, mejorando
-                    el autoconcepto y encontrando el valor de un cuerpo sano.
-                </p>
-            </div>
-            <div>02</div>
-            <div>03</div>
-            <div>04</div> */}
         </div>
     );
 }

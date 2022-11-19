@@ -11,6 +11,7 @@ export function Section2() {
             src="../assets/comoActuar.jpg"
             alt="Como Actuar"
             style={{ borderRadius: "50%", width: "500px", height: "500px" }}
+            loading="lazy"
           />
         </div>
         <div className="grid grid-rows-4 justify-items-start w-full">
@@ -54,6 +55,7 @@ export function Section3() {
               width={400}
               height={400}
               className="rounded opacity-[100%]"
+              loading="lazy"
             />
         </div>
         <div className="grid grid-rows-4 justify-items-start w-full mt-10">
@@ -98,6 +100,7 @@ export function Section3Uno() {
               width={400}
               height={400}
               className="rounded opacity-[100%]"
+              loading="lazy"
             />
           </div>
         <div className="grid grid-rows-5 justify-items-start w-full">

@@ -99,6 +99,7 @@ export default function Section1(){
                       src={object.image}
                       alt="Como Actuar"
                       style={{ borderRadius: "55%", width: '600px', height: "600px" }}
+                      loading="lazy"
                     />
                   </div>
                 </div>

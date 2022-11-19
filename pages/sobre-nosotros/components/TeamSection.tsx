@@ -39,7 +39,7 @@ export default function TeamSection() {
                                     <br />
                                 </div>
                             </li>
-                            <li key="id-1" className="text-white text-2x">
+                            <li key="id-2" className="text-white text-2x">
                                 <div className="flex">
                                     <AiOutlineCheckCircle
                                         size={30}
@@ -50,7 +50,7 @@ export default function TeamSection() {
                                     <br />
                                 </div>
                             </li>
-                            <li key="id-1" className="text-white text-2x">
+                            <li key="id-3" className="text-white text-2x">
                                 <div className="flex">
                                     <AiOutlineCheckCircle
                                         size={30}
@@ -61,7 +61,7 @@ export default function TeamSection() {
                                     <br />
                                 </div>
                             </li>
-                            <li key="id-1" className="text-white text-2x">
+                            <li key="id-4" className="text-white text-2x">
                                 <div className="flex">
                                     <AiOutlineCheckCircle
                                         size={30}
@@ -72,7 +72,7 @@ export default function TeamSection() {
                                     <br /> <br />
                                 </div>
                             </li>
-                            <li key="id-1" className="text-white text-2x">
+                            <li key="id-5" className="text-white text-2x">
                                 <div className="flex">
                                     <AiOutlineCheckCircle
                                         size={30}

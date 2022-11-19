@@ -10,6 +10,7 @@ export default function PlacesSection() {
                     src={image}
                     className="w-full h-full object-cover absolute mix-blend-overlay"
                     alt="Home"
+                    loading='lazy'
                 />
             </div>
             <div className="w-full h-screen  pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center">

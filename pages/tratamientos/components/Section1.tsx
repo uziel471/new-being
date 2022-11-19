@@ -64,7 +64,7 @@ export default function Section1() {
                 {list.map((item, index) => {
                   if (item.list) {
                     return (
-                    <details className="group w-full">
+                    <details className="group w-full" key={item.title}>
                       <summary className="list-none flex flex-wrp items-center cursor-pointer ml-[9%]">
                         <h3 className="flex p-4 font-semibold text-3xl text-[#00C1DE]"> {item.title} </h3>
                         <div className="flex w-10 items-center justify-center">
@@ -93,7 +93,7 @@ export default function Section1() {
                   )
                   }
                   return (
-                    <Link href={item.link}>
+                    <Link href={item.link} key={item.link}>
                       <h3 className="flex p-4 font-semibold text-3xl text-[#00C1DE] ml-[60px]"> {item.title} </h3>
                     </Link>
                   )

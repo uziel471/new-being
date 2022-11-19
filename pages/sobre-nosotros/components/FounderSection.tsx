@@ -30,7 +30,7 @@ export default function FounderSection() {
                 </div>
             </div>
             <div>
-                <Image className='h-[100%]' src={photo} alt="issac-photo" />
+                <Image className='h-[100%]' src={photo} alt="issac-photo" loading='lazy' />
             </div>
         </div>
     );

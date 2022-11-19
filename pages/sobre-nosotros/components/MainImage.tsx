@@ -9,6 +9,7 @@ export default function MainImage() {
                 src={image}
                 className="w-full h-full object-cover absolute mix-blend-overlay"
                 alt="Home"
+                loading='lazy'
             />
             <div className="w-full h-screen  pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center mt-[90px]">
                 <h3 className="md:text-5xl sm:text-3xl text-cl font-bold">

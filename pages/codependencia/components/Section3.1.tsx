@@ -10,6 +10,7 @@ export default function Section3Uno() {
               width={400}
               height={400}
               className="rounded opacity-[100%]"
+              loading="lazy"
             />
           </div>
         <div className="grid grid-rows-5 justify-items-start w-full">

@@ -29,6 +29,7 @@ export default function Section2() {
             src={photo}
             alt="Como Actuar"
             style={{ borderRadius: "55%", width: '400px', height: "400px" }}
+            loading='lazy'
           />
         </div>
       </div>

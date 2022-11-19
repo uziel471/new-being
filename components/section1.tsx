@@ -24,6 +24,7 @@ export default function Section1() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen 
           className="rounded-3xl"
+          loading="lazy"
         />
       </div>
     </div>
