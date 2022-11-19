@@ -9,7 +9,7 @@ export default function NavBar() {
     {
       name: "Primer paso",
       isSubMenu: false,
-      href: "../pages/primer-paso/index.tsx",
+      href: "/primer-paso",
     },
     {
       name: "Tratamientos",

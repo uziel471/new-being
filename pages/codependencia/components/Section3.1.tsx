@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Section3Uno() {
   return (
     <div className="bg-[#15284B]">
@@ -23,9 +25,11 @@ export default function Section3Uno() {
             </p>
           </div>
           <div>
-            <button className="outline outline-offset-8 rounded mt-10">
-              <p className="text-blue-300 text-3xl">MÁS INFORMACIÓN</p>
-            </button>
+            <Link href="/tratamientos">
+              <button className="outline outline-offset-8 rounded mt-10">
+                <p className="text-blue-300 text-3xl">MÁS INFORMACIÓN</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

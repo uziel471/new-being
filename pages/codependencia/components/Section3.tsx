@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Section3() {
   return (
     <div className="w-full rounded-tl-[430px] bg-[#00C1DE] z-19">
@@ -30,9 +32,11 @@ export default function Section3() {
             </p>
           </div>
           <div>
-            <button className="outline outline-offset-8 rounded mt-10">
-              <p className="text-blue-300 text-3xl text-white">MÁS INFORMACIÓN</p>
-            </button>
+            <Link href="/tratamientos">
+              <button className="outline outline-offset-8 rounded mt-10">
+                <p className="text-blue-300 text-3xl text-white">MÁS INFORMACIÓN</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

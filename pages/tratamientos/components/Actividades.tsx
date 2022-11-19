@@ -14,7 +14,7 @@ export default function Actividades() {
 
   return (
     <div className="bg-[#00C1DE]">
-      <div className="h-full rounded-br-[430px] bg-[#15284B] grid grid-cols-2 place-items-center p-20">
+      <div className="rounded-br-[430px] bg-[#15284B] grid grid-cols-2 place-items-center p-20">
         <div className="">
           <img
             src="../assets/Actividades.jpg"

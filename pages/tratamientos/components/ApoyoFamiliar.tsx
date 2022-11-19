@@ -13,7 +13,7 @@ export default function ApoyoFamiliar() {
       <div className="rounded-br-[430px] bg-white grid grid-cols-2 place-items-center p-10">
         <div className="">
           <img
-            src="../assets/Actividades.jpg"
+            src="../assets/ApoyoFamiliar.jpg"
             alt="Como Actuar"
             style={{ borderRadius: "50%", width: "500px", height: "500px" }}
           />

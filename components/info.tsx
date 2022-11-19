@@ -1,3 +1,7 @@
+import Link from "next/link";
+
+const href = '/tratamientos'
+
 export function Section2() {
   return (
     <div className="w-full z-19 h-auto">
@@ -71,9 +75,11 @@ export function Section3() {
             </p>
           </div>
           <div>
-            <button className="outline outline-offset-8 rounded mt-10">
-              <p className="text-blue-300 text-3xl text-white">MÁS INFORMACIÓN</p>
-            </button>
+            <Link href={href}>
+              <button className="outline outline-offset-8 rounded mt-10">
+                <p className="text-blue-300 text-3xl text-white">MÁS INFORMACIÓN</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -106,9 +112,11 @@ export function Section3Uno() {
             </p>
           </div>
           <div>
-            <button className="outline outline-offset-8 rounded mt-10">
-              <p className="text-blue-300 text-3xl">MÁS INFORMACIÓN</p>
-            </button>
+            <Link href={href}>
+              <button className="outline outline-offset-8 rounded mt-10">
+                <p className="text-blue-300 text-3xl">MÁS INFORMACIÓN</p>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
