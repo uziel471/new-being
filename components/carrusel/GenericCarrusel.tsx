@@ -27,8 +27,6 @@ export function GenericCarrusel({ imagesName } : props) {
         <div className="flex flex-col w-full h-screen bg-[#000000] z-1">
             <Image
                 src={require(`../../public/assets/${imagesName[index]}`)}
-                width={1000}
-                height={1000}
                 className="w-full h-screen object-cover opacity-50"
                 alt="carrusel"
             />

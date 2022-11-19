@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import photo from '../../../public/assets/objetivo2.png';
+import photo from '../../../public/assets/fisico.png';
 
 export default function ObjectivesSection() {
     return (
