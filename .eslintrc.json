@@ -1,12 +1,9 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "jest": true,
-    "cypress/globals": true
+    "es2021": true
   },
   "extends": [
-    "plugin:cypress/recommended",
     "plugin:react/recommended",
     "airbnb"
   ],
@@ -31,12 +28,7 @@
     "react/function-component-definition": "off",
     "no-restricted-exports": "off",
     "react/jsx-props-no-spreading": "warn",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": ["cypress/**"]
-      }
-    ]
+    "import/no-extraneous-dependencies": []
   },
   "settings": {
     "import/resolver": {

@@ -1,7 +1,7 @@
 import NavBar from '../../components/NavBar';
 import MainImage from './components/MainImage';
 import Section1 from './components/Section1';
-import { Section3 } from './components/Section3';
+import Section3 from './components/Section3';
 import Etapas from './components/Etapas';
 import Section2 from './components/Section2';
 import Actividades from './components/Actividades';
