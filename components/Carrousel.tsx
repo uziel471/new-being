@@ -47,10 +47,10 @@ export default function Carrousel() {
   };
 
   return (
-    <div className="flex flex-col w-full h-screen bg-[#000000]">
+    <div className="flex flex-col w-full h-screen bg-[#444444]">
       <img
         src={contentCarrusel[index].url}
-        style={{width: '100%', height: 'auto' }}
+        style={{width: '100%', height: '100%', opacity: '60%'}}
         alt="carrusel"
       />
       <button className="absolute inset-y-0 left-0 w-16 " onClick={handlePrev} > <AiOutlineLeft size={50} className="ml-5" color="#C9CAC3"/> </button>
