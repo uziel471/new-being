@@ -2,12 +2,12 @@ export default function Section2() {
   return (
     <div className="bg-white">
       <div className="rounded-bl-[430px] bg-[#00C1DE] grid grid-cols-2 place-items-center justify-items-center">
-          <div className="w-4/6 h-4/6 ">
-            {/* TODO: cambiar imagen por icon */}
+          <div className="w-4/6 h-4/6 grid place-items-center">
             <img
-              src="../assets/comoActuar.jpg"
-              alt="Como Actuar"
-              style={{ borderRadius: "50%", width: "80%", height: "100%" }}
+              src="../assets/tratamiento-secundario.png"
+              width={400}
+              height={400}
+              className="rounded opacity-[100%]"
             />
           </div>
         <div className="grid grid-rows-5 justify-items-start w-full text-white">

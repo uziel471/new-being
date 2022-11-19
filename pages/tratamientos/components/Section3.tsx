@@ -3,12 +3,13 @@ export default function Section3() {
     <div className="bg-[#15284B]">
       <div className="w-full rounded-tl-[430px] bg-[#00C1DE] z-19">
         <div className="grid grid-cols-2 place-items-center justify-items-center">
-          <div className="w-4/6 h-4/6 place-items-center ">
-            {/* TODO: cambiar imagen por icon */}
+          <div className="w-4/6 h-4/6 grid place-items-center ">
             <img
-              src="../assets/comoActuar.jpg"
+              src="../assets/tratamiento-primario_1.png"
               alt="Como Actuar"
-              style={{ borderRadius: "50%", width: "80%", height: "100%" }}
+              width={400}
+              height={400}
+              className="rounded opacity-[100%]"
             />
           </div>
           <div className="grid grid-rows-4 justify-items-start w-full mt-10">

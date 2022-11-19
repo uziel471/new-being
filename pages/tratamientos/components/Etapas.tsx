@@ -2,7 +2,7 @@ export default function Etapas() {
   const Etapas = [
     {
       id: 1,
-      image: '../assets/step1.png',
+      image: '../assets/evaluacion-inicial.png',
       title: 'EVALUACIÓN INICIAL',
       description: [
         'Analizamos la situación en particular de la persona,',
@@ -12,7 +12,7 @@ export default function Etapas() {
     },
     {
       id: 2,
-      image: '../assets/step1.png',
+      image: '../assets/examenes-medicos.png',
       title: 'EXÁMENES MÉDICOS',
       description: [
         'Realizamos exámenes de antidoping, análisis de laboratorio y un',
@@ -22,7 +22,7 @@ export default function Etapas() {
     },
     {
       id: 3,
-      image: '../assets/step1.png',
+      image: '../assets/proceso-rehabilitacion.png',
       title: 'PROCESO DE REHABILITACIÓN',
       description: [
         'Ayudamos a manejar los síntomas de abstinencia y la ansiedad a',
@@ -32,7 +32,7 @@ export default function Etapas() {
     },
     {
       id: 4,
-      image: '../assets/step1.png',
+      image: '../assets/intervencion.png',
       title: 'INCORPORACIÓN A LAS ACTIVIDADES',
       description: [
         'La persona participa en sesiones alternativas, individuales y',
@@ -42,7 +42,7 @@ export default function Etapas() {
     },
     {
       id: 5,
-      image: '../assets/step1.png',
+      image: '../assets/acompanamiento-psico.png',
       title: 'ACOMPAÑAMIENTO PSICOLÓGICO',
       description: [
         ' Cada persona cuenta con un psicólogo asignado manejando su',
@@ -52,7 +52,7 @@ export default function Etapas() {
     },
     {
       id: 6,
-      image: '../assets/step1.png',
+      image: '../assets/egreso-seguimiento.png',
       title: 'EGRESO Y SEGUIMIENTO',
       description: [
         'Analizamos el éxito del tratamiento primario y determinamos si la',
