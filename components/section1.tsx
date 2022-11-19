@@ -15,7 +15,16 @@ export default function Section1() {
         </div>
       </div>
       <div className="w-5/6">
-        <img src="../assets/video.png"  alt="section1" width={600} height={500} className="rounded-3xl"/>
+        <iframe
+          width={700}
+          height={400}
+          src="https://www.youtube.com/embed/NwhUCBb6kfA"
+          title="Clínica Nuevo Ser"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen 
+          className="rounded-3xl"
+        />
       </div>
     </div>
   );

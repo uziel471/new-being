@@ -6,10 +6,11 @@ export default function Carrousel() {
   const [index, setIndex] = useState(0);
 
   const content_carrusel = [
-    '/../public/assets/c1.jpeg',
-    '/../public/assets/c2.jpeg',
-    '/../public/assets/c3.jpeg',
-    '/../public/assets/c4.jpeg',
+    '/../assets/c1.jpg',
+    '/../assets/c2.jpg',
+    '/../assets/c3.jpg',
+    '/../assets/c4.jpg',
+    '/../assets/c5.jpg',
   ];
   const handlePrev = () => {
 
@@ -28,7 +29,7 @@ export default function Carrousel() {
 
   return (
     <div className="flex flex-col w-full h-screen bg-[#000000]">
-      <Image
+      <img
         src={content_carrusel[index]}
         width={1000}
         height={1000}
