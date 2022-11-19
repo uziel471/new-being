@@ -59,10 +59,10 @@ export default function Carrousel() {
           <p className="text-2xl mt-12 text-left "> {String(contentCarrusel[index].description)}</p> 
         </div>
       <div className= "absolute bottom-0 left-0 ml-32 mb-60">
-       <button className="outline outline-4 rounded-full mt-10 p-4 mr-5 border-[#00C1DE] ">
+       <button className="outline outline-4 rounded-full mt-10 p-4 mr-5 outline-[#00C1DE] ">
        <p className="text-white text-3xl">CONTÁCTANOS</p>
       </button>
-      <button className="outline outline-4 rounded-full border-sky-500 mt-10 p-4 ml-8 ">
+      <button className="outline outline-4 rounded-full outline-[#00C1DE] mt-10 p-4 ml-8 ">
         <p className="text-white text-3xl">MAS INFORMACION</p>
       </button>
       </div>
