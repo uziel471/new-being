@@ -1,4 +1,5 @@
 import { AiOutlineCheckCircle} from "react-icons/ai";
+import Link from "next/link";
 
 export default function Section1() {
   const list = [
@@ -11,7 +12,7 @@ export default function Section1() {
         'Oniomanía (adicción a las compras)',
         'Patología dual',
       ],
-      link: ''
+      link: '/adicciones',
     },
     {
       title: 'ENFERMEDADES MENTALES',
@@ -23,7 +24,7 @@ export default function Section1() {
         'Trastorno de sueño',
         'Esquizofrenia',
       ],
-      link: ''
+      link: '/enfermedades-mentales'
     },
     {
       title: 'TRASTORNOS ALIMENTICIOS (TCA)',
@@ -32,11 +33,11 @@ export default function Section1() {
         'Bulimia',
         'Trastorno por atracón'
       ],
-      link: ''
+      link: '/transtornos-alimenticios'
     },
     {
       title: 'CODEPENDENCIA',
-      link: ''
+      link: '/codependencia'
     },
   ];
 
@@ -82,15 +83,19 @@ export default function Section1() {
                             </li>
                           ))}
                         </ul>
-                        <button className="outline outline-offset-1 ml-[60px] p-3 w-[250px] rounded-full text-xl text-[#00C1DE]">
-                          <p className="text-white">MÁS INFORMACIÓN</p>
-                        </button>
+                        <Link href={item.link}>
+                          <button className="outline outline-offset-1 ml-[60px] p-3 w-[250px] rounded-full text-xl text-[#00C1DE]">
+                            <p className="text-white">MÁS INFORMACIÓN</p>
+                          </button>
+                        </Link>
                       </div>
                     </details>
                   )
                   }
                   return (
-                    <h3 className="flex p-4 font-semibold text-3xl text-[#00C1DE] ml-[60px]"> {item.title} </h3>
+                    <Link href={item.link}>
+                      <h3 className="flex p-4 font-semibold text-3xl text-[#00C1DE] ml-[60px]"> {item.title} </h3>
+                    </Link>
                   )
                 })}
                 </div>
