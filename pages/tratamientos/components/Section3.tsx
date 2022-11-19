@@ -1,4 +1,4 @@
-export function Section3() {
+export default function Section3() {
   return (
     <div className="bg-[#15284B]">
       <div className="w-full rounded-tl-[430px] bg-[#00C1DE] z-19">
