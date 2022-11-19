@@ -19,12 +19,12 @@ export default function Section4() {
             </div>
             <div className="grid grid-cols-2 place-items-start">
               <div>
-                <button className="outline outline-offset-8 p-3 rounded-full text-xl border-black">
+                <button className="outline outline-offset-8 p-3 rounded-full text-xl outline-[#00C1DE]">
                   <p className="text-white">MX +52(664) 143-0939</p>
                 </button>
               </div>
               <div>
-                <button className="outline outline-offset-8 p-3 rounded-full text-xl border-sky-600">
+                <button className="outline outline-offset-8 p-3 rounded-full text-xl outline-[#00C1DE]">
                   <p className="text-white">US +1 (619) 734-2339</p>
                 </button>
               </div>

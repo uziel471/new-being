@@ -37,7 +37,7 @@ function Contact(){
         <div className="flex flex-col py-2">
           <input
             id="telefono"
-            type="number"
+            type="tel"
             placeholder="Teléfono"
             className="rounded-full mt-2 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('telefono',{
@@ -52,13 +52,13 @@ function Contact(){
           <textarea
             id="message"
             placeholder="¿Cuál es tu situacíon?"
-            className="rounded-md mt-2 h-32 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
+            className="rounded-3xl mt-2  p-4 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('message')}
           />
         </div>
         <div className="flex justify-start text-white">
-          <button className="outline outline-offset-8 p-3 text-xl rounded-full mt-10">
-            <p className="text-blue-300 text-1x text-white">ENVIAR</p>
+          <button className="outline outline-offset-8 p-2 outline-[#00C1DE] text-xl rounded-full mt-10">
+            <p className="text-1x text-white">ENVIAR</p>
           </button>
         </div>
       </form>

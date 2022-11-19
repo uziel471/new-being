@@ -19,7 +19,7 @@ export default function Section2() {
             </p>
           </div>
           <div>
-            <button className="outline outline-offset-8 rounded text-3xl border-black">
+            <button className="outline outline-offset-8 rounded-full p-2 mt-10 text-xl border-black">
               <p className="text-white">CONOCE MÁS</p>
             </button>
           </div>
