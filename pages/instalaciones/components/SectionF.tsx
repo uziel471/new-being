@@ -28,6 +28,7 @@ export default function SectionF() {
             src='../assets/UnidadPlayas.jpg'
             alt="Como Actuar"
             style={{ borderRadius: "55%", width: '400px', height: "400px" }}
+            loading="lazy"
           />
         </div>
       </div>

@@ -26,6 +26,7 @@ export default function Section3() {
             src='../assets/CLINICA_SER-1.jpg'
             alt="Como Actuar"
             style={{ borderRadius: "55%", width: '400px', height: "400px" }}
+            loading="lazy"
           />
         </div>
       </div>

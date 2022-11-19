@@ -22,8 +22,8 @@ export default function CollapsDetail({
 }: Props) {
   return (
     <div>
-      {array.map((object) => (
-        <div className="text-white">
+      {array.map((object, index) => (
+        <div className="text-white" key={object.title}>
           <details className="group w-full">
             <summary className="list-none flex flex-wrp items-center cursor-pointer ml-[9%]">
               <h3 className="flex p-4 font-semibold text-3xl text-[#00C1DE]"> {object.title} </h3>
@@ -90,6 +90,7 @@ export default function CollapsDetail({
                       src={object.image}
                       alt="Como Actuar"
                       style={{ borderRadius: "55%", width: '600px', height: "600px" }}
+                      loading='lazy'
                     />
                   </div>
                 </div>

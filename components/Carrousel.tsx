@@ -52,6 +52,7 @@ export default function Carrousel() {
         src={contentCarrusel[index].url}
         style={{width: '100%', height: '100%', opacity: '60%'}}
         alt="carrusel"
+        loading='lazy'
       />
       <button className="absolute inset-y-0 left-0 w-16 " onClick={handlePrev} > <AiOutlineLeft size={50} className="ml-5" color="#C9CAC3"/> </button>
         <div className="absolute inset-y-0 left-0 w-2/5 ml-32 text-white mt-96"> 

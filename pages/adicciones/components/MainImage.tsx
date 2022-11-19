@@ -5,6 +5,7 @@ export default function MainImage() {
           src="../assets/revistas.jpg"
           className="w-screen h-screen"
           alt="Home"
+          loading="lazy"
         />
       </div>
     );

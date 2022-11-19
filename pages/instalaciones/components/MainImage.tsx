@@ -7,6 +7,7 @@ export default function MainImage() {
                 src='../assets/InstalacionesMain.jpg'
                 className="w-full h-screen object-cover absolute mix-blend-overlay"
                 alt="Home"
+                loading="lazy"
             />
             <div className="w-full h-screen  pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center pt-[30%]">
                 <h1 className="md:text-7xl sm:text-6xl font-bold">

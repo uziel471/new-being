@@ -15,6 +15,7 @@ export default function StepsSection() {
                             src={Step1}
                             alt="step"
                             className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
+                            loading='lazy'
                         />
                     </div>
                     <div>
@@ -31,6 +32,7 @@ export default function StepsSection() {
                             src={Step2}
                             alt="step"
                             className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
+                            loading='lazy'
                         />
                     </div>
                     <div>
@@ -46,6 +48,7 @@ export default function StepsSection() {
                             src={Step3}
                             alt="step"
                             className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
+                            loading='lazy'
                         />
                     </div>
                     <div>
@@ -61,6 +64,7 @@ export default function StepsSection() {
                             src={Step4}
                             alt="step"
                             className="w-[140px] h-[140px] br-[50px] p-[10px] mb-4"
+                            loading='lazy'
                         />
                     </div>
                     <div>

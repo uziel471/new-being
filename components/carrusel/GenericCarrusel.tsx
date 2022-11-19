@@ -29,6 +29,7 @@ export function GenericCarrusel({ imagesName } : props) {
                 src={require(`../../public/assets/${imagesName[index]}`)}
                 className="w-full h-screen object-cover opacity-50"
                 alt="carrusel"
+                loading='lazy'
             />
             <button
                 className="absolute left-0 mt-[25%]"

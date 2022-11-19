@@ -16,6 +16,7 @@ export default function ApoyoFamiliar() {
             src="../assets/ApoyoFamiliar.jpg"
             alt="Como Actuar"
             style={{ borderRadius: "50%", width: "500px", height: "500px" }}
+            loading="lazy"
           />
         </div>
         <div className="w-[85%]">
@@ -26,7 +27,7 @@ export default function ApoyoFamiliar() {
           de su familia.</p>
           <ul>
             {list.map((item, index) => (
-              <li key={index} className="text-[#15284B] text-2x">
+              <li key={item + index} className="text-[#15284B] text-2x">
                 <div className="flex">
                   <AiOutlineCheckCircle size={30} className="p-1" color="#00C1DE" /> &nbsp;
                   {item} <br /> <br />

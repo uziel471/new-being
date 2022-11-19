@@ -3,7 +3,7 @@ export default function Section2() {
     <div className="w-full rounded-tl-[430px] bg-sky-500/100 z-19">
       <div className="grid grid-cols-2 h-full place-items-end justify-items-center">
         <div className="grid place-items-end">
-          <img src="../assets/doctor.png"  alt="doctor" />
+          <img src="../assets/doctor.png"  alt="doctor"  loading="lazy" />
         </div>
         <div className="grid grid-rows-3 justify-items-start w-full h-5/6">
           <div className="pb-8 text-white">

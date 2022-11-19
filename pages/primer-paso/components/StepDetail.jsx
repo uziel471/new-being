@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const steps = [
     {
         key: 'step1',
         title: 'Paso 1',
         buttonText: 'Mas informacion',
-        redirect: '',
+        redirect: '/adicciones',
         description: (
             <p className="text-[16px]">
                 <b>El primer paso ya lo has dado,</b> estas en busca de
@@ -53,7 +54,7 @@ const steps = [
     {
         key: 'step3',
         title: 'Paso 3',
-        redirect: '',
+        redirect: '/tratamientos',
         buttonText: 'Mas informacion',
         description: (
             <p className="text-[16px]">
@@ -77,7 +78,7 @@ const steps = [
         key: 'step4',
         title: 'Paso 4',
         buttonText: 'Mas informacion',
-        redirect: '',
+        redirect: '/tratamientos',
         description: (
             <p className="text-[16px]">
                 Nuestros tratamientos son efectivos por que{' '}
@@ -109,10 +110,10 @@ const steps = [
 export default function StepDetail() {
     return (
         <>
-            {steps.map((step, index) => {
+            {steps?.map((step, index) => {
                 if (step.key === 'step4') {
                     return (
-                        <div className="bg-blue-900 mt-[5%] ">
+                        <div className="bg-blue-900 mt-[5%]" key={step.title}>
                             <div className="h-full rounded-br-[430px] bg-white grid grid-cols-2">
                                 <div className="grid grid-rows-1 place-items-center">
                                     <p className="text-6xl mr-56 mb-4 font-bold">
@@ -122,6 +123,7 @@ export default function StepDetail() {
                                         src={require(`../../../public/assets/step${index + 1}.png`)}
                                         alt="section1"
                                         width={250}
+                                        loading="lazy"
                                     />
                                 </div>
                                 <div className="grid grid-rows-1">
@@ -131,11 +133,13 @@ export default function StepDetail() {
                                         </p>
                                         <div>
                                             {step.description}
-                                            <button className="outline outline-8 p-4 ml-4 rounded-2xl mt-8 mb-8 border-black">
-                                                <p className="text-cyan-500">
-                                                    {step.buttonText}
-                                                </p>
-                                            </button>
+                                            <Link href={step.redirect}>
+                                                <button className="outline outline-8 p-4 ml-4 rounded-2xl mt-8 mb-8 border-black">
+                                                    <p className="text-cyan-500">
+                                                        {step.buttonText}
+                                                    </p>
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +148,7 @@ export default function StepDetail() {
                     );
                 }
                 return (
-                    <div className="mt-[5%]">
+                    <div className="mt-[5%]" key={step.title}>
                         <div className="h-full rounded-br-[430px] bg-white grid grid-cols-2">
                             <div className="grid grid-rows-1 place-items-center">
                                 <p className="text-6xl mr-56 mb-4 font-bold">
@@ -154,6 +158,7 @@ export default function StepDetail() {
                                     src={require(`../../../public/assets/step${index + 1}.png`)}
                                     alt="section1"
                                     width={250}
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="grid grid-rows-1">
@@ -163,11 +168,13 @@ export default function StepDetail() {
                                     </p>
                                     <div>
                                         {step.description}
-                                        <button className="outline outline-8 p-4 ml-4 rounded-2xl mt-8 border-black">
-                                            <p className="text-cyan-500">
-                                                {step.buttonText}
-                                            </p>
-                                        </button>
+                                        <Link href={step.redirect}>
+                                            <button className="outline outline-8 p-4 ml-4 rounded-2xl mt-8 border-black">
+                                                <p className="text-cyan-500">
+                                                    {step.buttonText}
+                                                </p>
+                                            </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
