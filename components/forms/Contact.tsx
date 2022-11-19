@@ -18,7 +18,7 @@ function Contact(){
             id="name"
             placeholder="Nombre*"
             type="text"
-            className="rounded-lg mt-2 p-2 focus:border-blue-500 focus:bg-gray-100 focus:outline-none"
+            className="rounded-full mt-2 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('name',{
               required: true
             })}
@@ -30,7 +30,7 @@ function Contact(){
             id="email"
             placeholder="Correo"
             type="email"
-            className="rounded-lg mt-2 p-2 focus:border-blue-500 focus:bg-gray-100 focus:outline-none"
+            className="rounded-full mt-2 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('email')}
           />
         </div>
@@ -39,7 +39,7 @@ function Contact(){
             id="telefono"
             type="number"
             placeholder="Teléfono"
-            className="rounded-lg mt-2 p-2 focus:border-blue-500 focus:bg-gray-100 focus:outline-none"
+            className="rounded-full mt-2 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('telefono',{
                 required: true,
                 minLength: 10,
@@ -52,12 +52,12 @@ function Contact(){
           <textarea
             id="message"
             placeholder="¿Cuál es tu situacíon?"
-            className="rounded-lg mt-2 p-2 focus:border-blue-500 focus:bg-gray-100 focus:outline-none"
+            className="rounded-md mt-2 h-32 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('message')}
           />
         </div>
         <div className="flex justify-start text-white">
-          <button className="outline outline-offset-8 rounded mt-10">
+          <button className="outline outline-offset-8 p-3 text-xl rounded-full mt-10">
             <p className="text-blue-300 text-1x text-white">ENVIAR</p>
           </button>
         </div>
