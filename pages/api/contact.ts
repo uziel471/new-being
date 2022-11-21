@@ -1,5 +1,6 @@
 import 'dotenv/config';
 
+import NextCors from 'nextjs-cors';
 const sgMail = require('@sendgrid/mail');
 
 const { SG_API_KEY, TO_EMAIL } = process.env;
@@ -9,7 +10,13 @@ sgMail.setApiKey(SG_API_KEY);
 export default async function handler(req: any, res: any) {
   const { name, email, message, telefono } = req.body;
 
-  console.log({ name, email, message, telefono });
+  await NextCors(req, res, {
+    // Options
+    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+    origin: '*',
+    optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+  });
+
   const msg = {
     to: TO_EMAIL,
     from: email,
