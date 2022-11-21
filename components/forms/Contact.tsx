@@ -8,8 +8,22 @@ type ContactProps = {
 };
 
 function Contact(){
-  const { register, formState: { errors } , handleSubmit} = useForm<ContactProps>();
-  const onSubmit = (data: ContactProps) => console.log(data);
+  const { register, formState: { errors } , handleSubmit, reset} = useForm<ContactProps>();
+  const onSubmit = async (data: ContactProps) => {  
+    try {
+      await fetch('https://clinicasaludmental.com/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+      reset();
+      alert('correo enviado');
+    } catch (error) {
+      alert('Error al enviar el correo');
+    }
+  }
   return (
     <div className="w-full flex flex-col justify-center">
       <form className="w-full h-full p-8 px-8" onSubmit={handleSubmit(onSubmit)}>
