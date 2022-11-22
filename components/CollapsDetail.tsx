@@ -1,7 +1,7 @@
 
 import { AiOutlineCheckCircle} from "react-icons/ai";
 
-type ArrayProps = {
+type arrayProps = {
   id: number;
   title: string;
   pregunta1: string;
@@ -15,7 +15,7 @@ type ArrayProps = {
 };
 
 type Props = {
-  array: ArrayProps[];
+  array: arrayProps[];
 }
 export default function CollapsDetail({
   array

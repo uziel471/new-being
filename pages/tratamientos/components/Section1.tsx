@@ -61,7 +61,7 @@ export default function Section1() {
           <div className="grid grid-rows-1 justify-items-start w-full">
             <div className=""> 
               <div className="text-white">
-                {list.map((item, index) => {
+                {list.map((item) => {
                   if (item.list) {
                     return (
                     <details className="group w-full" key={item.title}>
