@@ -4,10 +4,12 @@
     "es2021": true
   },
   "extends": [
+    "eslint:recommended",
     "plugin:react/recommended",
-    "airbnb"
+    "plugin:@next/next/recommended"
   ],
   "parserOptions": {
+    "parser": "@babel/eslint-parser",
     "ecmaFeatures": {
       "jsx": true
     },
@@ -28,7 +30,8 @@
     "react/function-component-definition": "off",
     "no-restricted-exports": "off",
     "react/jsx-props-no-spreading": "warn",
-    "import/no-extraneous-dependencies": []
+    "import/no-extraneous-dependencies": 0,
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "import/resolver": {

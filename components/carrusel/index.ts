@@ -1,1 +1,1 @@
-export { GenericCarrusel as default } from './GenericCarrusel';
+export { Carrusel as default } from './Carrusel';
