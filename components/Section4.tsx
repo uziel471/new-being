@@ -2,36 +2,36 @@ import Contact from './forms/Contact';
 
 export default function Section4() {
   return (
-    <div className="bg-[#15284B] w-full">
-      <div className="h-full w-full grid grid-cols-2 place-items-center">
+    <div className="bg-[#15284B] p-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 place-items-center">
         <div>
-          <div className="grid grid-rows-3 mb-32 gap-3 text-white bg-[#00000]">
-            <div className="pb-8">
+          <div className="grid grid-rows-3 lg:gap-4 text-white bg-[#00000]">
+            <div className="">
               <p className="text-4xl">¿Necesitas ayuda</p>
-              <p className="text-6xl">para ti o un familiar?</p>
+              <p className="lg:text-6xl md:text-4xl">para ti o un familiar?</p>
             </div>
             <div>
-              <p className="text-3xl">
+              <p className="lg:text-lg md:text-md text-sm">
                 Contáctanos y permite que uno de nuestros,<br/>
                 asesores te guíe en el proceso hacia una<br/>
                 recuperación efectiva.
               </p>
             </div>
-            <div className="grid grid-cols-2 place-items-start">
-              <div>
-                <button className="outline outline-offset-8 p-3 rounded-full text-xl outline-[#00C1DE]">
-                  <p className="text-white">MX +52(664) 143-0939</p>
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 place-items-center">
+              <div className="pb-5">
+                <button className="outline outline-offset-4 p-2 rounded-full text-sm outline-[#00C1DE]">
+                  <p className="text-white">MX +52 (664) 143-0939</p>
                 </button>
               </div>
-              <div>
-                <button className="outline outline-offset-8 p-3 rounded-full text-xl outline-[#00C1DE]">
-                  <p className="text-white">US +1 (619) 734-2339</p>
+              <div className="pb-5">
+                <button className="outline outline-offset-4 p-2 rounded-full text-sm outline-[#00C1DE]">
+                  <p className="text-white">US +1 (619) 734-2339 &nbsp; </p>
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="w-4/6 h-3/6 mb-60">
+        <div className="lg:w-4/6 w-6/6">
           <Contact />
         </div>
       </div>
