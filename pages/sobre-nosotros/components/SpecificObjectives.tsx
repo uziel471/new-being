@@ -6,7 +6,7 @@ const objects = [
         title: 'Físico',
         img: 'fisico.png',
         description: (
-            <p className="text-lg mt-4">
+            <p className="text-sm lg:text-lg md:text-md mt-4">
                 Un desarrollo adecuado del físico, le permite a las personas en <br />
                 tratamiento recuperar la confianza en sí mismo, mejorando el <br />
                 autoconcepto y encontrando el valor de un cuerpo sano.
@@ -17,7 +17,7 @@ const objects = [
         title: 'Mental',
         img: 'mental.png',
         description: (
-            <p className="text-lg mt-4">
+            <p className="text-sm lg:text-lg md:text-md mt-4">
                 Contamos con equipo especializado formado por médicos, <br />
                 psicólogos y psiquiatras, trabajando con cada una de las <br />
                 personas, evaluando su salud mental y emocional.
@@ -28,7 +28,7 @@ const objects = [
         title: 'Espiritual',
         img: 'espiritual.png',
         description: (
-            <p className="text-lg mt-4">
+            <p className="text-sm lg:text-lg md:text-md mt-4">
                 Buscamos el desarrollo espiritual de cada uno de los individuos <br />
                 en tratamiento, lo cual ayuda en gran medida al manejo de los <br />
                 síntomas de abstinencia.
@@ -39,7 +39,7 @@ const objects = [
         title: 'Social',
         img: 'social.png',
         description: (
-            <p className="text-lg mt-4">
+            <p className="text-sm lg:text-lg md:text-md mt-4">
                 Cada persona puede reintegrarse a la sociedad, al trabajo y a <br />
                 las relaciones humanas, con el apoyo y seguimiento de nuestros <br />
                 consejeros especializados.
@@ -50,7 +50,7 @@ const objects = [
 
 export default function SpecificObjectives() {
     return (
-        <div className="grid gap-4 grid-cols-2 ml-32 h-screen">
+        <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2  grid-cols-1 place-items-center p-10">
             {objects.map((objective, index) => (
                 <div className='mb-9' key={objective.title + index}>
                     <h1 className="text-4xl font-bold mb-9">
@@ -63,7 +63,7 @@ export default function SpecificObjectives() {
                         height={100}
                         loading="lazy"
                     />
-                    {objective.description}
+                        {objective.description}
                 </div>
             ))}
         </div>

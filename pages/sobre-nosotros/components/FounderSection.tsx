@@ -4,12 +4,12 @@ import photo from '../../../public/assets/issac.jpg';
 
 export default function FounderSection() {
     return (
-        <div className="grid grid-cols-3">
-            <div className="bg-cyan-500 col-span-2 h-full">
-                <div className="mx-32 mt-28 mb-28">
-                    <h1 className="text-4xl font-bold text-white">Fundador Isaac Alvo</h1>
-                    <div>
-                        <p className="text-2xl mt-4 text-white">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 place-items-center bg-cyan-500">
+            <div className="">
+                <div className="grid place-items-center">
+                    <h1 className="text-3xl font-bold text-white">Fundador Isaac Alvo</h1>
+                    <div className='p-10'>
+                        <p className="lg:text-lg md:text-md text-sm mt-4 text-white">
                             Nuestro fundador <b>Isaac Alvo</b> ha sido pionero en el
                             tratamiento de <br />
                             adicciones en México. Contando con una <b>vasta

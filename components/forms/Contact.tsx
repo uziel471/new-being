@@ -25,14 +25,14 @@ function Contact(){
     }
   }
   return (
-    <div className="w-full flex flex-col justify-center">
-      <form className="w-full h-full p-8 px-8" onSubmit={handleSubmit(onSubmit)}>
+    <div className="flex flex-col justify-center">
+      <form className="" onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col py-2">
           <input
             id="name"
             placeholder="Nombre*"
             type="text"
-            className="rounded-full mt-2 p-3 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
+            className="rounded-full mt-2 lg:p-2 p-2 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('name',{
               required: true
             })}
@@ -71,7 +71,7 @@ function Contact(){
           />
         </div>
         <div className="flex justify-start text-white">
-          <button className="outline outline-offset-8 p-2 outline-[#00C1DE] text-xl rounded-full mt-10">
+          <button className="outline outline-offset-4 p-2 outline-[#00C1DE] text-xl rounded-full mt-10">
             <p className="text-1x text-white">ENVIAR</p>
           </button>
         </div>

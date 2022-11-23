@@ -16,7 +16,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "next"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
