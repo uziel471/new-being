@@ -31,7 +31,7 @@ export default function Section1() {
         '¿Sientes la necesidad de beber más para sentir los efectos del alcohol?',
         '¿Tuvistes síntomas de abstinencia cuando no consumes alcohol (ansiedad, náuseas, sudores, problemas para dormir)?',
       ],
-      image: '../assets/Alcoholismo.jpg'
+      image: 'Alcoholismo.jpg'
     },
     {
       id: 2,
@@ -64,7 +64,7 @@ export default function Section1() {
         'Pérdida o aumento del apetito, movimientos descoordinados, dificultad en articular las palabras.',
         'Aislamiento, dejar de seguir la rutina, abandonar pasatiempos, responsabilidades, cambio de amistades.',
       ],
-      image: '../assets/Drogadiccion.jpg'
+      image: 'Drogadiccion.jpg'
     },
     {
       id: 3,
@@ -95,7 +95,7 @@ export default function Section1() {
         'Apostar para evadir los problemas o aliviar sentimientos de impotencia, culpa, ansiedad o depresión.',
         'Mentir a los familiares para ocultar la manera en la que juega compulsivamente.'
       ],
-      image: '../assets/JuegoPatologico.jpg'
+      image: 'JuegoPatologico.jpg'
     },
     {
       id: 4,
@@ -125,7 +125,7 @@ export default function Section1() {
         'Irritabilidad y cambios de humor.',
         '¿Tuviste síntomas de abstinencia cuando no tomas (ansiedad, náuseas, sudores, problemas para dormir, etc.)?'
       ],
-      image: '../assets/Oniomania.jpg'
+      image: 'Oniomania.jpg'
     },
     {
       id: 5,
@@ -156,18 +156,18 @@ export default function Section1() {
         'Pérdida de interés en las actividades cotidianas.',
         'Desorganización cognitiva (presentar pensamientos desorganizados o poco coherentes).'
       ],
-      image: '../assets/Patologia.jpg'
+      image: 'Patologia.jpg'
     }
   ];
   return (
-    <div className="rounded-br-[430px] bg-[#15284B] h-auto">
+    <div className="lg:rounded-br-[430px] bg-[#15284B]">
       <div>
-        <div className="pb-[200px]">
-          <h1 className="text-white text-4xl ml-[10%] pb-[10px] pt-[100px]">Tipos de adicciones</h1>
-          <CollapsDetail
-            array={tiposAdicciones}
-          />
+        <div className="p-10">
+          <h1 className="text-white text-4xl">Tipos de adicciones</h1>
         </div>
+        <CollapsDetail
+          array={tiposAdicciones}
+        />
       </div>
     </div>
   );
