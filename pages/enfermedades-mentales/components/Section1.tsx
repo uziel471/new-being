@@ -31,7 +31,7 @@ export default function Section1(){
        'Presencia de un deterioro laboral o social.',
        'Lenguaje y pensamiento desorganizado.',
       ],
-      image: '../assets/Esquizofrenia.jpg'
+      image: 'Esquizofrenia.jpg'
     },
   ];
   return (

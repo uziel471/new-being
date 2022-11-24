@@ -33,7 +33,7 @@ export default function Section1(){
        'Irregularidades en el ciclo menstrual.',
        'Ir al baño frecuentemente, especialmente después de las comidas.'
       ],
-      image: '../assets/Bulimia.jpg'
+      image: 'Bulimia.jpg'
     },
   ];
   return (
