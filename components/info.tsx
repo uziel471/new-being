@@ -22,7 +22,7 @@ export function Section2() {
               brindamos tratamientos primarios y secundarios, apoyando a las
               personas con patologías desde el primer momento hasta un
               seguimiento en recuperación. Todo en colaboración con la familia.
-              <br/>
+              <br/><br/>
             </p>
           </div>
           <div className="mt-15 lg:p-2">
@@ -114,7 +114,7 @@ export function Section3Uno() {
           <div>
             <Link href={href}>
               <button className="outline outline-offset-8 rounded mt-10">
-                <p className="text-blue-300 text-3xl">MÁS INFORMACIÓN</p>
+                <p className="text-blue-300 text-2xl">MÁS INFORMACIÓN</p>
               </button>
             </Link>
           </div>
