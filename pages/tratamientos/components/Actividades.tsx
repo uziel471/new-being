@@ -14,23 +14,27 @@ export default function Actividades() {
 
   return (
     <div className="bg-[#00C1DE]">
-      <div className="rounded-br-[430px] bg-[#15284B] grid grid-cols-2 place-items-center p-20">
+      <div className="lg:rounded-br-[430px] bg-[#15284B] grid lg:grid-cols-2 md:grid-cols-2 place-items-center p-8">
         <div className="">
           <img
             src="../assets/Actividades.jpg"
             alt="Como Actuar"
-            style={{ borderRadius: "50%", width: "500px", height: "500px" }}
+            className="lg:shadow-lg md:shadow-md shadow-sm lg:max-w-[400px] lg:max-h-[400px] rounded-[100%] max-w-[300px] max-h-[200px] align-middle border-none"
             loading="lazy"
           />
         </div>
-        <div className="w-[85%]">
-          <h3 className="flex p-10 font-semibold text-5xl text-white">Actividades </h3>
+        <div className="">
+          <h3 className="flex p-10 font-semibold lg:text-5xl text-3xl text-white">Actividades </h3>
           <ul>
             {list.map((item, index) => (
-              <li key={index} className="text-white text-2x">
+              <li key={index} className="text-white text-sm">
                 <div className="flex">
-                  <AiOutlineCheckCircle size={30} className="p-1" color="#00C1DE" /> &nbsp;
-                  {item} <br /> <br />
+                  <div>
+                    <AiOutlineCheckCircle size={30} className="p-1" color="#00C1DE" />
+                  </div>
+                  <div>
+                    {item} <br /> <br />
+                  </div>
                 </div>
               </li>
             ))}
