@@ -26,7 +26,7 @@ export default function CollapsDetail({
       {array.map((object, index) => (
         <div className="text-white" key={object.title}>
           <details className="group w-full">
-            <summary className="list-none flex flex-wrp items-center cursor-pointer">
+            <summary className="list-none flex flex-wrp items-center cursor-pointer lg:pl-10">
               <h3 className="flex p-4  text-2xl text-[#00C1DE]"> {object.title} </h3>
               <div className="flex w-10 items-center justify-center">
                 <div className="border-8 border-transparent border-l-gray-600 ml-2

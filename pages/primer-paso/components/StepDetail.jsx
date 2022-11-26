@@ -113,22 +113,26 @@ export default function StepDetail() {
             {steps?.map((step, index) => {
                 if (step.key === 'step4') {
                     return (
-                        <div className="bg-blue-900 mt-[5%]" key={step.title}>
-                            <div className="h-full rounded-br-[430px] bg-white grid grid-cols-2">
+                        <div className="bg-[#15284B]" key={step.title}>
+                            <div className="lg:rounded-br-[430px] bg-white grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 md:p-10 lg:p-10">
                                 <div className="grid grid-rows-1 place-items-center">
-                                    <p className="text-6xl mr-56 mb-4 font-bold">
-                                        {step.title}
-                                    </p>
-                                    <Image
-                                        src={require(`../../../public/assets/step${index + 1}.png`)}
-                                        alt="section1"
-                                        width={250}
-                                        loading="lazy"
-                                    />
+                                    <div>
+                                        <p className="text-6xl mb-4 font-bold text-center">
+                                            {step.title}
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <Image
+                                            src={require(`../../../public/assets/step${index + 1}.png`)}
+                                            alt="section1"
+                                            width={250}
+                                            loading="lazy"
+                                        />
+                                    </div>
                                 </div>
                                 <div className="grid grid-rows-1">
-                                    <div className="">
-                                        <p className="text-4xl text-cyan-300 mb-20 mt-20">
+                                    <div className="p-8 md:p-2">
+                                        <p className="text-4xl text-cyan-300 mb-8">
                                             {step.title}
                                         </p>
                                         <div>
@@ -148,10 +152,10 @@ export default function StepDetail() {
                     );
                 }
                 return (
-                    <div className="mt-[5%]" key={step.title}>
-                        <div className="h-full rounded-br-[430px] bg-white grid grid-cols-2">
+                    <div className="p-8" key={step.title}>
+                        <div className="lg:rounded-br-[430px] bg-white grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
                             <div className="grid grid-rows-1 place-items-center">
-                                <p className="text-6xl mr-56 mb-4 font-bold">
+                                <p className="text-6xl mb-4 font-bold text-center">
                                     {step.title}
                                 </p>
                                 <Image

@@ -161,9 +161,9 @@ export default function Section1() {
   ];
   return (
     <div className="lg:rounded-br-[430px] bg-[#15284B]">
-      <div>
+      <div className="">
         <div className="p-10">
-          <h1 className="text-white text-4xl">Tipos de adicciones</h1>
+          <h1 className="text-white text-3xl">Tipos de adicciones</h1>
         </div>
         <CollapsDetail
           array={tiposAdicciones}
