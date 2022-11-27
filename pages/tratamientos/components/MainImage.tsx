@@ -3,7 +3,7 @@ export default function MainImage() {
     <div className="w-full lg:h-screen text-white z-1 mt-[100px]">
       <img
           src="../assets/Tratamientos.jpg"
-          className="w-screen lg:h-screen object-cover absolute mix-blend-overlay"
+          className="w-screen lg:h-screen object-cover absolute mix-blend-overlay opacity-90"
           alt="Home"
           loading="lazy"
       />

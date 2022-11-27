@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function StepsSection() {
     return (
-        <div className="lg:rounded-br-[400px] bg-blue-900 lg:p-10">
+        <div className="lg:rounded-br-[400px] bg-blue-900 lg:p-10 lg:mt-0 md:mt-[105px]">
             <div className="py-16 grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 lg:gap-4 place-items-center text-center">
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
                     <div>

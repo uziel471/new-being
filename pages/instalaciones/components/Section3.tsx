@@ -1,14 +1,14 @@
 export default function Section3() {
   return (
-    <div className="w-full  text-[#15284B]">
-      <div className="grid grid-cols-2 place-items-center justify-items-center">
-        <div className="grid grid-rows-2 justify-items-center mt-[100px] w-full">
+    <div className="text-[#15284B]">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-center justify-items-center p-8">
+        <div className="grid lg:grid-rows-2 md:grid-rows-1 justify-items-start lg:p-20">
           <div className="">
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[20px]">Playas de Tijuana</h3>
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[30px]">CLÍNICA DE ATENCIÓN SECUNDARIA</h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[20px]">Playas de Tijuana</h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[30px]">CLÍNICA DE ATENCIÓN SECUNDARIA</h3>
             
           </div>
-          <div className="w-[65%] pb-[50px]">
+          <div className="p-2">
             <p>
               Nuestra Unidad de Atención Secundaria y Post-Tratamiento de adicciones es un espacio acondicionado para la recuperación de las personas de forma integral. Cuenta con espacios para sesiones de grupo y terapias individuales, amplio comedor, así como alberca, patios y cómodas habitaciones.
             </p>

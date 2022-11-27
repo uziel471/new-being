@@ -7,7 +7,7 @@ export default function Carrousel() {
         <div className="w-full">
             <Carousel showThumbs={false}>
                 <div>
-                    <img src="/../assets/c1.jpg" />
+                    <img src="/../assets/c1.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
                             25% de la población padece de salud mental
@@ -20,7 +20,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div>
-                    <img src="/../assets/c2.jpg" />
+                    <img src="/../assets/c2.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
                             Te acompañamos en tu proceso de recuperación
@@ -33,7 +33,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div>
-                    <img src="/../assets/c3.jpg" />
+                    <img src="/../assets/c3.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">¿Por qué nosotros?</p>
                         <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
@@ -45,7 +45,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div>
-                    <img src="/../assets/c4.jpg" />
+                    <img src="/../assets/c4.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
                             Tengo un familiar adicto ¿Cómo puedo ayudar?
@@ -58,7 +58,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div>
-                    <img src="/../assets/c5.jpg" />
+                    <img src="/../assets/c5.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
                             Conoce nuestras instalaciones
