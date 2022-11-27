@@ -3,15 +3,15 @@ import photo from '../../../public/assets/unidad2.jpg'
 
 export default function Section2() {
   return (
-    <div className="w-full  text-[#15284B]">
-      <div className="grid grid-cols-2 place-items-center justify-items-center">
-        <div className="grid grid-rows-2 justify-items-center mt-[100px] w-full">
+    <div className="text-[#15284B]">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-center justify-items-center p-8">
+        <div className="grid lg:grid-rows-2 md:grid-rows-1 justify-items-start lg:p-20">
           <div className="">
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[20px]"> Unidad Rosarito CAP 2 </h3>
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[30px]"> CLÍNICA DE ATENCIÓN PRIMARIA </h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[20px]"> Unidad Rosarito CAP 2 </h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[30px]"> CLÍNICA DE ATENCIÓN PRIMARIA </h3>
             
           </div>
-          <div className="w-[65%] pb-[50px]">
+          <div className="p-2">
             <p>
             CAP 2 en Rosarito, ofrece atención especializada para pacientes con problemas de salud mental. En esta unidad se atiende solo a hombres.
             </p>
@@ -24,11 +24,10 @@ export default function Section2() {
           </div>
         </div>
         <div className="w-auto h-auto grid place-items-center">
-          {/* TODO: cambiar imagen por icon */}
           <Image
             src={photo}
             alt="Como Actuar"
-            style={{ borderRadius: "55%", width: '400px', height: "400px" }}
+            style={{ borderRadius: "55%", width: '100%', height: "100%" }}
             loading='lazy'
           />
         </div>

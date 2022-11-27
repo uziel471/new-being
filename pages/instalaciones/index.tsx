@@ -4,7 +4,6 @@ import Unidades from './components/Unidades'
 import Section1 from './components/Section1'
 import Actividades from './components/Actividades'
 import Section2 from './components/Section2'
-import Actividades2 from './components/Actividades2'
 import Section3 from './components/Section3'
 import SectionF from './components/SectionF'
 import Section4 from '../../components/Section4'
@@ -24,7 +23,7 @@ export default function index() {
         <Actividades />
         <CarruselUnidad1 />
         <Section2 />
-        <Actividades2 />
+        <Actividades />
         <CarruselUnidad2 />
         <Section3 />
         <SectionF />

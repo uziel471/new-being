@@ -1,13 +1,13 @@
 export default function SectionF() {
   return (
-    <div className="w-full  text-[#15284B]">
-      <div className="grid grid-cols-2 place-items-center justify-items-center">
-        <div className="grid grid-rows-2 justify-items-center mt-[100px] w-full">
+    <div className="text-[#15284B]">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-center justify-items-center p-8">
+        <div className="grid lg:grid-rows-2 md:grid-rows-1 justify-items-start lg:p-20">
           <div className="">
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[20px]">Playas de Tijuana</h3>
-            <h3 className="flex font-semibold text-3xl text-[#15284B] mb-[20px]">CENTRO DE ATENCIÓN FAMILIAR</h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[20px]">Playas de Tijuana</h3>
+            <h3 className="flex font-semibold lg:text-3xl text-xl text-[#15284B] mb-[20px]">CENTRO DE ATENCIÓN FAMILIAR</h3>
           </div>
-          <div className="w-[65%] pb-[50px]">
+          <div className="p-2">
             <p>
               Como centro de atención familiar, somos un espacio para el tratamiento, información, capacitación y recuperación de adicciones, conductas adictivas y disfunción familiar. Brindando la oportunidad de aprender y crecer de forma personal y familiar.
             </p>

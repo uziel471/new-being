@@ -4,15 +4,15 @@ import Image from 'next/image';
 
 export default function MainImage() {
     return (
-        <div className="w-screen h-screen text-white mt-[100px]">
-            <div className="w-screen h-screen mx auto text-left flex flex-col justify-center">
+        <div className="w-screen lg:h-screen text-white mt-[100px]">
+            <div className="w-screen lg:h-screen mx auto text-left flex flex-col justify-center">
                 <Image
                     src={image}
-                    className="w-screen h-screen object-cover mix-blend-overlay"
+                    className="w-screen lg:h-screen object-cover mix-blend-overlay opacity-90"
                     alt="Home"
                     loading="lazy"
                 />
-                <div className='lg:pl-36 absolute'>
+                <div className='lg:pl-36 md:pl-12 pl-4 absolute'>
                     <h3 className="lg:text-5xl md:text-2xl text-xl text-cl font-bold">
                         Una clínica con
                     </h3>
