@@ -1,9 +1,11 @@
-import React from "react";
 import Link from "next/link";
 import Image from 'next/image';
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Logo from "../public/assets/logo.webp";
+import { useState } from "react";
 
 export default function NavBar() {
+  const [openMenu, setOpenMenu] = useState(false);
   const header_content = {
     nav_items: [
     {
@@ -64,49 +66,67 @@ export default function NavBar() {
     }],
     button: "Subscribe",
   };
+
+  const handlerMenu = () => {
+    let list = document.querySelector("ul");
+    if (!openMenu && list) {
+      setOpenMenu(true);
+      list.classList.add("top-[80px]");
+      list.classList.add("opacity-100");
+    } else if (list && openMenu) {
+      setOpenMenu(false);
+      list.classList.remove("top-[80px]");
+      list.classList.remove("opacity-100");
+    }
+  };
+
   return (
     <header className=" fixed z-20 bg-white from-white to-yellow-50/50 w-full ">
-      {/* Nav Bar */}
-      <nav className="mx-auto flex flex-row items-center justify-between p-4">
+      <nav className="p-5 bg-white shadow md:flex md:items-center md:justify-between">
         {/* Logo */}
-        <Link href="/" className="relative">
-          <span className="text-2xl font-bold"> <Image className="w-80" alt="Logo" src={Logo}/></span>
-        </Link>
-        {/* Nav Items */}
-        <div className="flex flex-row space-x-8 transition">
-          <ul className="hidden flex-row space-x-8 font-medium sm:flex">
-            {header_content?.nav_items &&
-              header_content?.nav_items.map((item, i) => {
-                if (!item.isSubMenu) {
-                  return (
-                    <li
-                      key={i}
-                      className="flex cursor-pointer flex-row items-center space-x-2 text-gray-600 hover:text-gray-800"
-                    >
-                        <Link href={item.href} className="relative">
-                         <span>{item.name}</span>
-                        </Link>
-                    </li>
-                  )
-                }
-                return (
-                    <div className="dropdown inline-block relative" key={i}>
-                      <button className="text-gray-600 font-semibold py-1 px-0 rounded inline-flex items-center">
-                        <span className="mr-1">{item.name}</span>
-                        <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
-                      </button>
-                      <ul className="dropdown-menu absolute hidden text-gray-600 pt-1 bg-[#00C1DE]">
-                        {item.childrens.map((child, i) => (
-                          <Link href={child.href} className="rounded-t py-2 px-4 block whitespace-no-wrap text-white" key={`${i} - ${child}`} >
-                            <span>{child.name}</span>
-                          </Link>
-                        ))}
-                      </ul>
-                    </div>
-                ) 
-              })}
-          </ul>
+        <div className="flex justify-between items-center">
+          <Link href="/">
+            <span className="text-2xl font-[poppins] cursor-pointer"> <Image className="lg:w-80 md:w-40 w-36" alt="Logo" src={Logo}/></span>
+          </Link>
+          <span className="text-3xl cursor-pointer mx-2 md:hidden block">
+            { openMenu ? <AiOutlineClose onClick={handlerMenu} /> : <AiOutlineMenu onClick={handlerMenu} /> }
+          </span>
         </div>
+        <ul
+          className="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 top-[-400px] transition-all ease-in duration-500"
+          id="menuList"
+        >
+          {header_content?.nav_items &&
+            header_content?.nav_items.map((item, i) => {
+              if (!item.isSubMenu) {
+                return (
+                  <li
+                    key={i}
+                    className="mx-4 my-6 md:my-0"
+                  >
+                    <Link href={item.href} className="">
+                    <span>{item.name}</span>
+                    </Link>
+                  </li>
+                )
+              }
+              return (
+                <div className="dropdown mx-4 my-6 md:my-0" key={i}>
+                  <button className="text-gray-600 font-semibold py-1 px-0 rounded inline-flex items-center">
+                    <span className="mr-1">{item.name}</span>
+                    <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                  </button>
+                  <ul className="dropdown-menu absolute hidden text-gray-600 pt-1 bg-[#00C1DE]">
+                    {item.childrens.map((child, i) => (
+                      <Link href={child.href} className="rounded-t py-2 px-4 block text-white" key={`${i} - ${child}`} >
+                        <span>{child.name}</span>
+                      </Link>
+                    ))}
+                  </ul>
+                </div>
+              ) 
+          })}
+        </ul>
       </nav>
     </header>
   );
