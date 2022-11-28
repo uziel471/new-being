@@ -1,6 +1,6 @@
 export default function MainImage() {
     return (
-      <div className="w-full lg:h-screen text-white z-1 mt-[100px]">
+      <div className="w-full lg:h-screen text-white z-1">
         <img
           src="../assets/Codependencia.jpg"
           className="w-screen lg:h-screen"

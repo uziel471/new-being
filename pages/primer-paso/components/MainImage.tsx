@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function MainImage() {
     return (
-        <div className="w-full lg:h-screen text-white z-1 mt-[100px]">
+        <div className="w-full lg:h-screen text-white z-1">
             <Image
                 src={image}
                 className="w-screen lg:h-screen object-cover absolute mix-blend-overlay opacity-90"

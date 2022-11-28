@@ -9,7 +9,7 @@ export default function index() {
     return (
       <div className="flex h-screen min-h-screen w-full flex-col bg-[#00000]">
         <NavBar />
-        <main className="">
+        <main className="mt-[70px] lg:mt-100">
           <MainImage />
           <Section1 />
           <Info />

@@ -14,7 +14,7 @@ export default function index() {
     return (
         <div className="flex h-screen min-h-screen w-full flex-col">
             <NavBar />
-            <main className="">
+            <main className="mt-[70px] lg:mt-100">
                 <MainImage />
                 <ObjectivesSection />
                 <SpecificObjectives />

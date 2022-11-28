@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function MainImage() {
     return (
-        <div className="w-screen lg:h-screen text-white mt-[100px]">
+        <div className="w-screen lg:h-screen text-white">
             <div className="w-screen lg:h-screen mx auto text-left flex flex-col justify-center">
                 <Image
                     src={image}
