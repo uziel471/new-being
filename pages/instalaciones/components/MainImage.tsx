@@ -2,26 +2,28 @@ import React from 'react';
 
 export default function MainImage() {
     return (
-        <div className="w-full h-screen text-white z-1">
-            <img
-                src='../assets/InstalacionesMain.jpg'
-                className="w-full h-screen object-cover absolute mix-blend-overlay"
-                alt="Home"
-                loading="lazy"
-            />
-            <div className="w-full h-screen  pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center pt-[30%]">
-                <h1 className="md:text-7xl sm:text-6xl font-bold">
-                    Instalaciones
-                </h1>
-                <p className="text-2xl">
-                    Nuestras instalaciones, cuentan con un alto nivel de seguridad.
-                </p>
-                <p className="text-2xl">
-                    Garantizando la tranquilidad y confidencialidad de cada uno de 
-                </p>
-                <p className="text-2xl">
-                    nuestros pacientes y sus familias.
-                </p>
+        <div className="w-screen lg:h-screen text-white">
+            <div className="w-screen lg:h-screen mx auto text-left flex flex-col justify-center">
+                <img
+                    src='../assets/InstalacionesMain.jpg'
+                    className="w-screen lg:h-screen object-cover mix-blend-overlay opacity-90"
+                    alt="Home"
+                    loading="lazy"
+                />
+                <div className='lg:pl-36 md:pl-12 pl-4 absolute'>
+                    <h3 className="lg:text-5xl md:text-2xl text-xl text-cl font-bold">
+                        Instalaciones
+                    </h3>
+                    <p className="text-sm md:text-md lg:text-lg">
+                        Nuestras instalaciones, cuentan con un alto nivel de seguridad.
+                    </p>
+                    <p className="text-sm md:text-md lg:text-lg">
+                        Garantizando la tranquilidad y confidencialidad de cada uno de 
+                    </p>
+                    <p className="text-sm md:text-md lg:text-lg">
+                        nuestros pacientes y sus familias.
+                    </p>
+                </div>
             </div>
         </div>
     );

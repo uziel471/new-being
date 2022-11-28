@@ -1,23 +1,23 @@
 export default function Section1() {
   return (
-    <div className="w-full h-1/6 grid grid-cols-2 gap-4 place-items-center font-sans">
-      <div className="grid grid-rows-2 w-5/6">
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-4 place-items-center font-sans lg:p-20 md:p-6 p-10">
+      <div className="grid grid-rows-2">
         <div className="pb-8">
-          <p className="text-6xl">Clínica de rehabilitación</p>
-          <p className="text-4xl">de adicciones y salud mental</p>
+          <p className="lg:text-6xl md:text-4xl text-2xl">Clínica de rehabilitación</p>
+          <p className="lg:text-4xl md:text-2xl text-xl">de adicciones y salud mental</p>
         </div>
         <div>
-          <p className="text-3xl">
+          <p className="lg:text-2xl text-sm md:text-md">
             Clínica privada para el tratamiento de adicciones,<br/>
             salud mental, trastornos de personalidad y<br/>
             codependencia en Tijuana, México.
           </p>
         </div>
       </div>
-      <div className="w-5/6">
+      <div className="lg:w-4/6 lg:h-full md:w-4/6 md:w-5/5">
         <iframe
-          width={700}
-          height={400}
+          width="100%"
+          height="100%"
           src="https://www.youtube.com/embed/NwhUCBb6kfA"
           title="Clínica Nuevo Ser"
           frameBorder="0"

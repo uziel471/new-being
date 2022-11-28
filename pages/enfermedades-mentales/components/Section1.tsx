@@ -31,11 +31,11 @@ export default function Section1(){
        'Presencia de un deterioro laboral o social.',
        'Lenguaje y pensamiento desorganizado.',
       ],
-      image: '../assets/Esquizofrenia.jpg'
+      image: 'Esquizofrenia.jpg'
     },
   ];
   return (
-    <div className="rounded-br-[430px] bg-[#15284B] h-auto">
+    <div className="lg:rounded-br-[430px] bg-[#15284B] h-auto">
       <div>
         <div className="pb-[200px]">
           <h1 className="text-white text-4xl ml-[10%] pb-[10px] pt-[100px]">Tipos de enfermedades mentales</h1>

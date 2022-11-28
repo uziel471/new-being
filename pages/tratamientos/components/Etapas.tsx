@@ -64,18 +64,18 @@ export default function Etapas() {
     
   return (
     <div>
-      <div className="ml-[100px]">
+      <div className="p-8">
         <h1 className="text-4xl pt-10 pb-10">Etapas</h1>
-        <p className="pb-[30px]">Contamos con una metodología adecuada a la persona y su<br />
+        <p className="lg:text-2xl md:text-md text-sm">Contamos con una metodología adecuada a la persona y su<br />
           familia, brindando apoyo en cada parte de su recuperación:</p>
       </div>
-      <div className="grid gap-8 grid-cols-2 justify-items-center place-content-center">
+      <div className="grid gap-8 lg:grid-cols-2 md:grid-cols-2 place-items-center place-content-center">
         {Etapas.map((etapa) => (
-          <div className="p-10" key={etapa.title}>
+          <div className="p-8 lg:p-20 w-full grid place-items-start" key={etapa.title}>
             <img src={etapa.image} alt="step1" width={150} height={150}  loading="lazy" />
-            <h1 className="text-3xl pt-10 pb-10 text-[#00C1DE]">{etapa.title}</h1>
+            <h1 className="lg:text-3xl text-xl p-4 text-[#00C1DE]">{etapa.title}</h1>
             {etapa.description.map((item, i) => (
-              <p className="text-xl" key={etapa.title + i}>{item}</p>
+              <p className="text-sm md:text-md lg:text-2xl" key={etapa.title + i}>{item}</p>
             ))}
           </div>
         ))}

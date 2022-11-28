@@ -4,17 +4,19 @@
     "es2021": true
   },
   "extends": [
+    "eslint:recommended",
     "plugin:react/recommended",
-    "airbnb"
+    "plugin:@next/next/recommended"
   ],
   "parserOptions": {
+    "parser": "@babel/eslint-parser",
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "next"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-underscore-dangle": ["error", { "allow": ["_id"] }],
@@ -28,7 +30,8 @@
     "react/function-component-definition": "off",
     "no-restricted-exports": "off",
     "react/jsx-props-no-spreading": "warn",
-    "import/no-extraneous-dependencies": []
+    "import/no-extraneous-dependencies": 0,
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "import/resolver": {

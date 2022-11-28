@@ -12,20 +12,20 @@ export default function Actividades() {
     'Ejercicio matutino'
   ];
   return (
-    <div className="w-full rounded-tl-[430px] bg-[#00C1DE] z-19 p-[80px]">
-      <div className="grid grid-cols-2 place-items-center justify-items-center">
-        <div className="w-4/6 h-4/6 place-items-center ">
-          <h3 className="flex p-4 font-semibold text-5xl text-white "> Actividades </h3>
-          <div className="w-[100%] pb-[50px] text-white">
+    <div className="lg:rounded-tl-[430px] bg-[#00C1DE] z-19 p-8 lg:p-20">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-center justify-items-center">
+        <div className="place-items-center lg:p-[100px]">
+          <h3 className="flex p-4 font-semibold lg:text-3xl md:text-3xl text-xl text-white "> Actividades </h3>
+          <div className="text-white lg:text-xl">
             <p>
-            Nuestro equipo multidisciplinario experto en tratamiento de <br />
-            adicciones brinda atención profesional, trato digno y calidad humana<br />
-            a cada una de las personas recibiendo tratamiento.<br />
+            Nuestro equipo multidisciplinario experto en tratamiento de 
+            adicciones brinda atención profesional, trato digno y calidad humana
+            a cada una de las personas recibiendo tratamiento.
             </p>
             <br />
           </div>
         </div>
-        <div className="full h-full">
+        <div className="lg:text-xl">
           <ul>
             {ActivityList.map((item, index) => (
               <li key={index} className="text-white text-2x">

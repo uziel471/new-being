@@ -33,11 +33,11 @@ export default function Section1(){
        'Irregularidades en el ciclo menstrual.',
        'Ir al baño frecuentemente, especialmente después de las comidas.'
       ],
-      image: '../assets/Bulimia.jpg'
+      image: 'Bulimia.jpg'
     },
   ];
   return (
-    <div className="rounded-br-[430px] bg-[#15284B] h-auto">
+    <div className="lg:rounded-br-[430px] bg-[#15284B] h-auto">
       <div>
         <div className="pb-[200px]">
           <h1 className="text-white text-4xl ml-[10%] pb-[10px] pt-[100px]">Trastornos de conducta alimentaria</h1>
