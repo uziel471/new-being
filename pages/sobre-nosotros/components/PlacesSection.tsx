@@ -8,7 +8,7 @@ export default function PlacesSection() {
             <div className=''>
                 <Image
                     src={image}
-                    className="w-screen h-screen object-cover absolute mix-blend-overlay"
+                    className="w-screen h-screen object-cover absolute mix-blend-overlay opacity-90"
                     alt="Home"
                     loading='lazy'
                 />

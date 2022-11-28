@@ -44,7 +44,7 @@ export default function Home() {
                 />
             </Head>
             <NavBar />
-            <main className="">
+            <main className="mt-[100px]">
                 <Carrousel />
                 <Section1 />
                 <Section2 />

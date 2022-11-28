@@ -7,11 +7,11 @@ export default function MainImage() {
         <div className="w-full lg:h-screen text-white z-1 mt-[100px]">
             <Image
                 src={image}
-                className="w-screen lg:h-screen object-cover absolute mix-blend-overlay"
+                className="w-screen lg:h-screen object-cover absolute mix-blend-overlay opacity-90"
                 alt="Home"
                 loading="lazy"
             />
-            <div className="w-screen lg:h-screen lg:pl-36 mx auto text-left flex flex-col justify-center bg-cover bg-center lg:pt-[300px] md:pb-[170px] pt-[120px]">
+            <div className="w-screen lg:h-screen lg:pl-36 text-left flex flex-col justify-center bg-cover bg-center md:p-[90px]  p-[50px] pl-4">
                 <h1 className="md:text-4xl lg:text-6xl text-sm font-bold">
                     El primer paso
                 </h1>
