@@ -71,11 +71,13 @@ export default function NavBar() {
     let list = document.querySelector("ul");
     if (!openMenu && list) {
       setOpenMenu(true);
-      list.classList.add("top-[80px]");
+      list.classList.remove("top-[-400px]");
+      list.classList.add("top-[70px]");
       list.classList.add("opacity-100");
     } else if (list && openMenu) {
       setOpenMenu(false);
-      list.classList.remove("top-[80px]");
+      list.classList.add("top-[-400px]");
+      list.classList.remove("top-[70px]");
       list.classList.remove("opacity-100");
     }
   };
