@@ -8,14 +8,12 @@ export default function Carrousel() {
             <Carousel showThumbs={false}>
                 <div>
                     <img src="/../assets/c1.jpg" className="opacity-90" />
-                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
+                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-10/12 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
-                            25% de la población padece de salud mental
+                            <b>En México, el 17% de las personas presenta al menos un trastorno mental, y una de cada cuatro lo padecerá como mínimo una vez en su vida.</b>
                         </p>
                         <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
-                            Más de 350 millones de personas en el mundo de todas
-                            las edades sufre de depresión y se calcula que entre
-                            el 60-65% no recibe atención médica.
+                            - OMS. Informe sobre sistema de salud mental en México.
                         </p>
                     </div>
                 </div>
