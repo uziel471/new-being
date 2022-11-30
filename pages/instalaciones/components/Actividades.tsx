@@ -19,7 +19,7 @@ export default function Actividades() {
           <div className="text-white lg:text-xl">
             <p>
             Nuestro equipo multidisciplinario experto en tratamiento de 
-            adicciones brinda atención profesional, trato digno y calidad humana
+            trastornos brinda atención profesional, trato digno y calidad humana
             a cada una de las personas recibiendo tratamiento.
             </p>
             <br />

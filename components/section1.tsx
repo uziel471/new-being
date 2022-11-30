@@ -8,8 +8,8 @@ export default function Section1() {
         </div>
         <div>
           <p className="lg:text-2xl text-sm md:text-md">
-            Clínica privada para el tratamiento de adicciones,<br/>
-            salud mental, trastornos de personalidad y<br/>
+            Clínica privada para el tratamiento de trastornos<br/>
+            de personalidad, salud mental y<br/>
             codependencia en Tijuana, México.
           </p>
         </div>

@@ -12,11 +12,11 @@ export default function FounderSection() {
                         <p className="lg:text-lg md:text-md text-sm mt-4 text-white">
                             Nuestro fundador <b>Isaac Alvo</b> ha sido pionero en el
                             tratamiento de <br />
-                            adicciones en México. Contando con una <b>vasta
+                            trastornos en México. Contando con una <b>vasta
                             experiencia</b> en el <br /> proceso de intervención,
                             desintoxicación, rehabilitación y reinserción <br />{' '}
                             efectiva de más de <b>15,000 personas</b> con problemas de
-                            adicción. <br />
+                            trastorno. <br />
                             <br />
                             Manteniendo un <b>alto nivel de casos de éxito</b>, los
                             cuales son testimonio <br />
@@ -24,7 +24,7 @@ export default function FounderSection() {
                             logrado <br />
                             impulsar su visión en Clínica Nuevo SER para
                             convertirse en la Clínica <br /> de Rehabilitación
-                            de Adicciones <b>más efectiva de México. </b>
+                            de trastornos <b>más efectiva de México. </b>
                         </p>
                     </div>
                 </div>

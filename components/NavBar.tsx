@@ -20,8 +20,8 @@ export default function NavBar() {
       href: "/",
       childrens: [
         {
-          name: "Adicciones",
-          href: "/adicciones",
+          name: "Trastornos",
+          href: "/transtornos",
         },
         {
           name: "Enfermedades mentales",
