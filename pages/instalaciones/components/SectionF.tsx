@@ -9,7 +9,7 @@ export default function SectionF() {
           </div>
           <div className="p-2">
             <p>
-              Como centro de atención familiar, somos un espacio para el tratamiento, información, capacitación y recuperación de adicciones, conductas adictivas y disfunción familiar. Brindando la oportunidad de aprender y crecer de forma personal y familiar.
+              Como centro de atención familiar, somos un espacio para el tratamiento, información, capacitación y recuperación de transtornos, conductas adictivas y disfunción familiar. Brindando la oportunidad de aprender y crecer de forma personal y familiar.
             </p>
             <p>
               Tenemos como objetivo prevenir e intervenir de forma oportuna, detectando y atendiendo los factores de riesgo, la salud emocional y física de las personas con patologías, así como de su familia.
