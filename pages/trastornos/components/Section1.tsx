@@ -3,70 +3,6 @@ import CollapsDetail from "../../../components/CollapsDetail";
 export default function Section1() {
   const tiposAdicciones = [
     {
-      id: 1,
-      title: 'ALCOHOLISMO',
-      pregunta1: 'QUÉ ES EL ALCOHOLISMO?',
-      respuesta1: [
-        'Un trastorno donde los hábitos de consumo de bebidas alcohólicas se vuelven conductas peligrosas, de las cuales no se puede prescindir, causando dependencia psicológica e incluso fisiológica.',
-        'Como Centro de rehabilitación, sabemos que el alcholismo afecta tanto al consumidor como a las personas con las que convive, por lo que queremos otorgarte herramientas para poder afrontar las adicción con ayuda de profesionales.',
-        'Consumir grandes contidades de alcohol aumenta el riesgo de accidentes automovilísticos, lesiones,homicidios y suicidios.'
-      ],
-      pregunta2: '¿QUÉ PUEDE OCASIONAR?',
-      respuesta2: [
-        'Ansia por beber, aumeto en cantidad y frecuencia en el consumo (aumento de tolerancia al alcohol).',
-        'Incapacidad para dejar de beber.',
-        'Estado emocional negativo, sintiendo irritabilidad o ansiedad cuando no se estaá consumiendo.',
-        'Desarrollar distintos tipos de cáncer.',
-        'Desarrollar enfermedades en el hígado.',
-        'Potencialmente desarrollar otro tipo de adicciones.',
-      ],
-      pregunta3: 'Identifica el problema',
-      respuesta3: [
-        'La Adicción al alcohol es un problema real y se puede presentar cuando sea y en quien sea. Al ser una bebida de consumo social es común que no se identifique como un problema. Sin embargo, si la respuesta a las siguientes preguntas son afirmativas, permítenos ayudarte.',
-      ],
-      preguntas: [
-        '¿Eres incapaz de limitar la cantidad de alcohol que consumes?',
-        '¿Seguiste bebiendo a pesar de que el alcohol te hace sentir deprimido, ansioso oenfermo?',
-        '¿Abandonas tus pasatiempos, actividades sociales o laborales para consumir alcohol?',
-        '¿Sientes la necesidad de beber más para sentir los efectos del alcohol?',
-        '¿Tuvistes síntomas de abstinencia cuando no consumes alcohol (ansiedad, náuseas, sudores, problemas para dormir)?',
-      ],
-      image: 'Alcoholismo.jpg'
-    },
-    {
-      id: 2,
-      title: 'DROGADICCIÔN',
-      pregunta1: '¿QUÉ ES LA DROGADICCIÔN?',
-      respuesta1: [
-        'Una enfermedad crónica que se caracteriza por la búsqueda y uso compulsivo de alguna droga. El uso constante de cualquier sustancia nociva puede generar cambios significativos en el cerebro, desafiando el autocontrol de una persona adicta.',
-        'Como Centro de rehabilitación sabemos que los casos de drogadicción deben de tomarse como algo real y serio, por lo que queremos otorgarte herramientas para que recuperes el control en tu vida.',
-        'El consumo de drogas también aumenta el riesgo de sobredosis, accidentes automovilísticos, lesiones, homicidios y suicidios. Así como el desarrollo de una enfermedad mental.'
-      ],
-      pregunta2: '¿QUÉ PUEDE OCASIONAR?',
-      respuesta2: [
-        'Necesidad de usar una dosis cada vez más elevada.',
-        'Enfermedades cardiovasculares, respiratorias, digestivas, infecciosas, etc.',
-        'Estado emocional negativo, sintiendo irritabilidad o ansiedad cuando no se está consumiendo.',
-        'Tendencia a delinquir (robos, homicidios, etc.)',
-        'Comportamiento agresivo y tendencia a alejar a tu familia.',
-        'Confusión, depresión, mal humor, ataques de pánico, desconfianza, paranoia psicótica, etc.',
-        'Muerte por sobredosis o accidentes.'
-      ],
-      pregunta3: 'Identifica el problema',
-      respuesta3: [
-        'Si sospecha o identifica alguno de los siguientes síntomas en algún familiar, no dude en comunicarse con nosotros; nuestros especialistas le asesorarán en la metodología de intervención para lograr un ingreso voluntario y así aumentar las posibilidades de una rehabilitación exitosa.',
-      ],
-      preguntas: [
-        'Constante mal humor, irritabilidad, ira, hostilidad, depresión.',
-        'Mentir y robar constantemente.',
-        'Ojos enrojecidos, pupilas dilatadas, pérdida repentina de peso, temblor.',
-        'Pérdida de motivación, evasión a preguntas sobre lo que ha hecho o donde ha estado.',
-        'Pérdida o aumento del apetito, movimientos descoordinados, dificultad en articular las palabras.',
-        'Aislamiento, dejar de seguir la rutina, abandonar pasatiempos, responsabilidades, cambio de amistades.',
-      ],
-      image: 'Drogadiccion.jpg'
-    },
-    {
       id: 3,
       title: 'JUEGO PATOLÓGICO (LUDOPATÍA)',
       pregunta1: '¿QUÉ ES EL JUEGO PATOLÓGICO?',
@@ -163,7 +99,7 @@ export default function Section1() {
     <div className="lg:rounded-br-[430px] bg-[#15284B]">
       <div className="">
         <div className="p-10">
-          <h1 className="text-white text-3xl">Tipos de adicciones</h1>
+          <h1 className="text-white text-3xl">Tipos de trastornos</h1>
         </div>
         <CollapsDetail
           array={tiposAdicciones}

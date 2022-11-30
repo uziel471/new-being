@@ -21,7 +21,7 @@ export default function PlacesSection() {
                 <div className="ml-[10px] mt-[30px]">
                     <div>
                         <button className="outline outline-offset-8 rounded text-2xl border-cyan-300 text-cyan-300">
-                            <p className="text-white">CONOCE NUESTERAS INSTALACIONES</p>
+                            <p className="text-white">CONOCE NUESTRAS INSTALACIONES</p>
                         </button>
                     </div>
                 </div>

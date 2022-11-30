@@ -7,7 +7,7 @@ const steps = [
         key: 'step1',
         title: 'Paso 1',
         buttonText: 'Mas informacion',
-        redirect: '/adicciones',
+        redirect: '/trastornos',
         description: (
             <p className="text-[16px]">
                 <b>El primer paso ya lo has dado,</b> estas en busca de
@@ -21,9 +21,7 @@ const steps = [
                 situacion y como resolverla. <br />
                 <br />
                 <b>
-                    Conoce mas acerca de los signos, sintomas y consecuencias de
-                    las <br />
-                    adicciones.
+                    Conoce mas acerca de los signos, sintomas y consecuencias.
                 </b>
             </p>
         ),
@@ -62,7 +60,7 @@ const steps = [
                 <b> solucion efectiva y a </b> <br />
                 <b>largo plazo.</b> <br />
                 <br />
-                Sabemos que hablar sobre las adicciones con un familiar adicto{' '}
+                Sabemos que hablar sobre los trastornos con un familiar no es tarea sencilla{' '}
                 <br />
                 no es tarea sencilla, es por eso que contamos con especialistas
                 en <br />
@@ -86,12 +84,10 @@ const steps = [
                 <b>persona y su familia </b> en todas las áreas de su vida.{' '}
                 <br />
                 <br />
-                En Clínica Nuevo Ser contamos con una <b>
+                En CLINICA NUEVO SER contamos con una <b>
                     amplia experiencia{' '}
                 </b>{' '}
-                en el <br />
-                tratamiento integral de adicciones a todo tipo de drogas,
-                alcohol y <br />
+                en el tratamiento integral a todo tipo de
                 trastornos de personalidad, atendiendo de forma{' '}
                 <b>individualizada</b> <br />
                 todas las áreas del ser humano, su salud mental, física,

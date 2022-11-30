@@ -10,7 +10,7 @@ export default function Section3() {
           </div>
           <div className="p-2">
             <p>
-              Nuestra Unidad de Atención Secundaria y Post-Tratamiento de adicciones es un espacio acondicionado para la recuperación de las personas de forma integral. Cuenta con espacios para sesiones de grupo y terapias individuales, amplio comedor, así como alberca, patios y cómodas habitaciones.
+              Nuestra Unidad de Atención Secundaria y Post-Tratamiento de trastornos es un espacio acondicionado para la recuperación de las personas de forma integral. Cuenta con espacios para sesiones de grupo y terapias individuales, amplio comedor, así como alberca, patios y cómodas habitaciones.
             </p>
             <br />
             <p className="underline decoration-solid">

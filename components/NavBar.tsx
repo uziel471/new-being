@@ -20,16 +20,16 @@ export default function NavBar() {
       href: "/",
       childrens: [
         {
-          name: "Adicciones",
-          href: "/adicciones",
+          name: "Trastornos",
+          href: "/trastornos",
         },
         {
           name: "Enfermedades mentales",
           href: "/enfermedades-mentales",
         },
         {
-          name: "Transtornos alimenticios",
-          href: "/transtornos-alimenticios",
+          name: "Trastornos alimenticios",
+          href: "/trastornos-alimenticios",
         },
         {
           name: "Codependencia",

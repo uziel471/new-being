@@ -16,7 +16,7 @@ export default function MainImage() {
                     El primer paso
                 </h1>
                 <h3 className="md:text-6xl lg:text-3xl text-sm font-bold">
-                    hacia una vida libre de addicciones
+                    hacia una vida libre
                 </h3>
                 <p className="text-sm md:text-xl md:pt-4">
                     Estamos aqui para ayudarte en tu tratamiento, sabemos que

@@ -11,7 +11,7 @@ function Contact(){
   const { register, formState: { errors } , handleSubmit, reset} = useForm<ContactProps>();
   const onSubmit = async (data: ContactProps) => {  
     try {
-      await fetch('https://clinicasaludmental.com/api/contact', {
+      await fetch('https://www.clinicasaludmental.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
