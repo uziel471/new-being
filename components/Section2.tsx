@@ -13,7 +13,7 @@ export default function Section2() {
           <div>
             <p className="text-sm md:text-md lg:text-2xl text-white">
               Nuestro equipo multidisciplinario experto en,<br/>
-              tratamento de adicciones brindan atención<br/>
+              tratamento de trastornos brindan atención<br/>
               profesional, trato digno y calidad humana a cada <br/>
               persona en tratamiento.
             </p>

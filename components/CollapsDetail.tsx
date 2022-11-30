@@ -23,7 +23,7 @@ export default function CollapsDetail({
 }: Props) {
   return (
     <div>
-      {array.map((object, index) => (
+      {array.map((object) => (
         <div className="text-white" key={object.title}>
           <details className="group w-full">
             <summary className="list-none flex flex-wrp items-center cursor-pointer lg:pl-10">

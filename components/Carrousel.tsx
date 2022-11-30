@@ -22,10 +22,10 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c2.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
                             Te acompañamos en tu proceso de recuperación
                         </p>
-                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
                             Las personas que sufren una patología y sus familias
                             buscan tranquilidad y entendimiento, permítenos
                             acompañarte y guiarte en tu rehabilitación.
@@ -35,10 +35,10 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c3.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">¿Por qué nosotros?</p>
-                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">¿Por qué nosotros?</p>
+                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
                             Ofrecemos atención integral en el tratamiento de
-                            adicciones, drogas, alcoholismo y salud mental.
+                            dependencia y salud mental.
                             Brindamos intervención oportuna, orientación y
                             acompañamiento constante.
                         </p>
@@ -47,12 +47,12 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c4.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
-                            Tengo un familiar adicto ¿Cómo puedo ayudar?
+                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                            Tengo un familiar con trastornos ¿Cómo puedo ayudar?
                         </p>
-                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
                             El primer paso ya lo has dado, estás en busca de
-                            información sobre las adicciones y has llegado al
+                            información sobre las dependencias y has llegado al
                             lugar correcto.
                         </p>
                     </div>
