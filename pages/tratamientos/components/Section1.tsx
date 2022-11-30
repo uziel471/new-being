@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Section1() {
   const list = [
     {
-      title: 'ADICCIONES',
+      title: 'TRASTORNOS',
       list: [
         'Alcoholismo',
         'Drogadicción',
@@ -12,7 +12,7 @@ export default function Section1() {
         'Oniomanía (adicción a las compras)',
         'Patología dual',
       ],
-      link: '/adicciones',
+      link: '/trastornos',
     },
     {
       title: 'ENFERMEDADES MENTALES',
@@ -33,7 +33,7 @@ export default function Section1() {
         'Bulimia',
         'Trastorno por atracón'
       ],
-      link: '/transtornos-alimenticios'
+      link: '/trastornos-alimenticios'
     },
     {
       title: 'CODEPENDENCIA',
