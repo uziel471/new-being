@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function MainImage() {
     return (
-        <div className="w-screen lg:h-screen text-white">
+        <div className="w-screen lg:h-screen text-[#00C1DE]">
             <div className="w-screen lg:h-screen mx auto text-left flex flex-col justify-center">
                 <img
                     src='../assets/InstalacionesMain.jpg'
