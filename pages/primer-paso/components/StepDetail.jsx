@@ -7,7 +7,7 @@ const steps = [
         key: 'step1',
         title: 'Paso 1',
         buttonText: 'Mas informacion',
-        redirect: '/adicciones',
+        redirect: '/trastornos',
         description: (
             <p className="text-[16px]">
                 <b>El primer paso ya lo has dado,</b> estas en busca de

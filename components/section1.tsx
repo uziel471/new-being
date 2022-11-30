@@ -4,7 +4,7 @@ export default function Section1() {
       <div className="grid grid-rows-2">
         <div className="pb-8">
           <p className="lg:text-6xl md:text-4xl text-2xl">Clínica de rehabilitación</p>
-          <p className="lg:text-4xl md:text-2xl text-xl">de adicciones y salud mental</p>
+          <p className="lg:text-4xl md:text-2xl text-xl">de trastornos y salud mental</p>
         </div>
         <div>
           <p className="lg:text-2xl text-sm md:text-md">

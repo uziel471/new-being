@@ -23,7 +23,8 @@ export default function VisionSection() {
                     <p className="lg:text-lg sm:text-sm">
                         Gracias a nuestros tratamientos innovadores, servicio integral, <br />
                         personal altamente capacitado e instalaciones óptimas logramos <br />
-                        ofrecer soluciones efectivas en la recuperación de los transtornos y <br />
+
+                        ofrecer soluciones efectivas en la recuperación de las trastornos y <br />
                         salud mental a largo plazo.
                     </p>
                 </div>
