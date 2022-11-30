@@ -21,15 +21,15 @@ export default function NavBar() {
       childrens: [
         {
           name: "Trastornos",
-          href: "/transtornos",
+          href: "/trastornos",
         },
         {
           name: "Enfermedades mentales",
           href: "/enfermedades-mentales",
         },
         {
-          name: "Transtornos alimenticios",
-          href: "/transtornos-alimenticios",
+          name: "Trastornos alimenticios",
+          href: "/trastornos-alimenticios",
         },
         {
           name: "Codependencia",
