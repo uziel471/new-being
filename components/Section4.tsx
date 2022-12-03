@@ -3,6 +3,7 @@ import Contact from './forms/Contact';
 export default function Section4() {
   return (
     <div className="bg-[#15284B] p-8">
+      <a id="Contactanos" className="block" />
       <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 place-items-center">
         <div>
           <div className="grid grid-rows-3 lg:gap-4 text-white bg-[#00000]">

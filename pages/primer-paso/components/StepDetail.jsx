@@ -9,15 +9,14 @@ const steps = [
         buttonText: 'Mas informacion',
         redirect: '/trastornos',
         description: (
-            <p className="text-[16px]">
+            <p className="text-[16px] lg:pr-[300px]">
                 <b>El primer paso ya lo has dado,</b> estas en busca de
-                informacion y has <br />
-                llegado al lugar correcto. <br />
+                informacion y has
+                llegado al lugar correcto.
                 <br />
                 Sabemos que no es facil, y en este momento el futuro parece
-                incierto, <br />
+                incierto,
                 queremos ayudarte a resolver cualquier duda con respecto a tu{' '}
-                <br />
                 situacion y como resolverla. <br />
                 <br />
                 <b>
@@ -32,18 +31,18 @@ const steps = [
         buttonText: 'Contactanos',
         redirect: '',
         description: (
-            <p className="text-[16px]">
-                Ahora que conoces mas de tu situacion es importante que <br />
+            <p className="text-[16px] lg:pr-[300px]">
+                Ahora que conoces mas de tu situacion es importante que
                 <b>contactes</b> a uno de nuestros profesionales para que te
-                asesore y <br />
+                asesore y
                 responda a todas tus preguntas. <br />
                 <br />
                 Ya sea que tu familiar no acepte ayuda o si lo haga, uno de
-                nuestros <br />
+                nuestros
                 profesionales te asesorara en la metodologia de intervencion
-                para <br />
+                para
                 lograr, un ingreso volutario y a si aumentar las posibilidades
-                de una <br />
+                de una
                 rehabilitacion exitosa,{' '}
                 <b>llamanos ahora para solucionar tu situacion.</b>
             </p>
@@ -55,19 +54,18 @@ const steps = [
         redirect: '/tratamientos',
         buttonText: 'Mas informacion',
         description: (
-            <p className="text-[16px]">
+            <p className="text-[16px] lg:pr-[300px]">
                 La intervencion oportuna es la clave para{' '}
-                <b> solucion efectiva y a </b> <br />
+                <b> solucion efectiva y a </b>
                 <b>largo plazo.</b> <br />
                 <br />
                 Sabemos que hablar sobre los trastornos con un familiar no es tarea sencilla{' '}
-                <br />
                 no es tarea sencilla, es por eso que contamos con especialistas
-                en <br />
+                en
                 intervencion en crisis, quienes desarrollan junto contigo un
-                plan <br />
+                plan
                 individualizado para una <b>intervencion exitosa</b> y asi
-                lograr un <b>ingreso</b> <br />
+                lograr un <b>ingreso</b>
                 <b>voluntario.</b>
             </p>
         ),
@@ -78,9 +76,9 @@ const steps = [
         buttonText: 'Mas informacion',
         redirect: '/tratamientos',
         description: (
-            <p className="text-[16px]">
+            <p className="text-[16px] lg:pr-[300px]">
                 Nuestros tratamientos son efectivos por que{' '}
-                <b>trabajamos junto con la </b> <br />
+                <b>trabajamos junto con la </b>
                 <b>persona y su familia </b> en todas las áreas de su vida.{' '}
                 <br />
                 <br />
@@ -89,9 +87,9 @@ const steps = [
                 </b>{' '}
                 en el tratamiento integral a todo tipo de
                 trastornos de personalidad, atendiendo de forma{' '}
-                <b>individualizada</b> <br />
+                <b>individualizada</b>
                 todas las áreas del ser humano, su salud mental, física,
-                espiritual y la <br />
+                espiritual y la
                 familia. <br />
                 <br />
                 <b>

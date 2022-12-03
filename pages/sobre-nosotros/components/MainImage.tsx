@@ -13,13 +13,13 @@ export default function MainImage() {
                     loading="lazy"
                 />
                 <div className='lg:pl-36 md:pl-12 pl-4 absolute'>
-                    <h3 className="lg:text-5xl md:text-2xl text-xl text-cl font-bold">
+                    <h3 className="lg:text-5xl md:text-2xl text-xl text-cl font-bold text-shadow-3xl">
                         Una clínica con
                     </h3>
-                    <h1 className="lg:text-7 md:text-4xl text-2xl font-bold pb-5">
+                    <h1 className="lg:text-7 md:text-4xl text-2xl font-bold pb-5 text-shadow-3xl">
                         sentido humano
                     </h1>
-                    <p className="text-sm md:text-md lg:text-lg">
+                    <p className="text-sm md:text-md lg:text-lg text-shadow-3xl">
                         En Clínica Nuevo Ser adecuamos cada uno de <br />
                         nuestros programas terapéuticos, con nuestras <br />
                         instalaciones equipadas y adecuadas, cumpliendo <br />

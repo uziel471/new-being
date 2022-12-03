@@ -9,10 +9,10 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c1.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-10/12 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-xl">
                             <b>En México, el 17% de las personas presenta al menos un trastorno mental, y una de cada cuatro lo padecerá como mínimo una vez en su vida.</b>
                         </p>
-                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-xl">
                             - OMS. Informe sobre sistema de salud mental en México.
                         </p>
                     </div>
@@ -20,10 +20,10 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c2.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                        <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Te acompañamos en tu proceso de recuperación
                         </p>
-                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-white lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-3xl">
                             Las personas que sufren una patología y sus familias
                             buscan tranquilidad y entendimiento, permítenos
                             acompañarte y guiarte en tu rehabilitación.
@@ -33,8 +33,8 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c3.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">¿Por qué nosotros?</p>
-                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">¿Por qué nosotros?</p>
+                        <p className="text-white lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-3xl">
                             Ofrecemos atención integral en el tratamiento de
                             dependencia y salud mental.
                             Brindamos intervención oportuna, orientación y
@@ -45,10 +45,10 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c4.jpg" className="opacity-100" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="text-[#15284B] lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                        <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Tengo un familiar con trastornos ¿Cómo puedo ayudar?
                         </p>
-                        <p className="text-[#15284B] lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="text-white lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-3xl">
                             El primer paso ya lo has dado, estás en busca de
                             información sobre las dependencias y has llegado al
                             lugar correcto.
@@ -58,14 +58,14 @@ export default function Carrousel() {
                 <div>
                     <img src="/../assets/c5.jpg" className="opacity-90" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-2/5 w-4/5 lg:ml-32 md:ml-20 md:mt-48 text-white lg:mt-96 ml-10 mt-[45px]">
-                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6">
+                        <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Conoce nuestras instalaciones
                         </p>
-                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left ">
+                        <p className="lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-3xl">
                             Contamos con 3 clínicas de atención, con amplias y
                             cómodas instalaciones acondicionadas para el
                             tratamiento efectivo de pacientes y sus familiares
-                            con cualquier tipo de adicción o trastorno mental.
+                            con cualquier tipo de trastorno o trastorno mental.
                         </p>
                     </div>
                 </div>
