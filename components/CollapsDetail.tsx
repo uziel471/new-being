@@ -93,7 +93,7 @@ export default function CollapsDetail({
                           <Image
                               src={require(`../public/assets/${object.image}`)}
                               alt="..."
-                              className="lg:shadow-lg md:shadow-md shadow-sm lg:max-w-[400px] lg:max-h-[400px] rounded-[100%] max-w-[300px] max-h-[200px] align-middle border-none"
+                              className="lg:shadow-lg md:shadow-md shadow-sm lg:max-w-[400px] lg:max-h-[400px] md:max-w-[300px] md:max-h-[300px] rounded-[100%] max-w-[200px] max-h-[200px] align-middle border-none"
                               loading='lazy'
                           />
                       </div>

@@ -10,7 +10,7 @@ export function Section2() {
                     <img
                         src="../assets/comoActuar.jpg"
                         alt="Como Actuar"
-                        className="lg:shadow-lg md:shadow-md shadow-sm lg:max-w-[400px] lg:max-h-[400px] lg:rounded-[100%] md:rounded-[100%] max-w-[300px] max-h-[200px] align-middle border-none"
+                        className="lg:shadow-lg md:shadow-md shadow-sm lg:max-w-[400px] lg:max-h-[400px] md:max-w-[300px] md:max-h-[300px] rounded-[100%] max-w-[200px] max-h-[200px] align-middle border-none"
                         loading="lazy"
                     />
                 </div>
@@ -39,11 +39,13 @@ export function Section2() {
                         </p>
                     </div>
                     <div>
-                        <button className="outline outline-offset-8 rounded mt-10">
-                            <p className="text-blue-300 text-3xl">
-                                CONTÁCTANOS
-                            </p>
-                        </button>
+                        <Link href="#Contactanos">
+                            <button className="outline outline-offset-8 rounded mt-10">
+                                <p className="text-blue-300 text-3xl">
+                                    CONTÁCTANOS
+                                </p>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

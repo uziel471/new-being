@@ -7,8 +7,8 @@ const objects = [
         img: 'fisico.png',
         description: (
             <p className="text-sm lg:text-lg md:text-md mt-4">
-                Un desarrollo adecuado del físico, le permite a las personas en <br />
-                tratamiento recuperar la confianza en sí mismo, mejorando el <br />
+                Un desarrollo adecuado del físico, le permite a las personas en
+                tratamiento recuperar la confianza en sí mismo, mejorando el
                 autoconcepto y encontrando el valor de un cuerpo sano.
             </p>
         ),
@@ -18,8 +18,8 @@ const objects = [
         img: 'mental.png',
         description: (
             <p className="text-sm lg:text-lg md:text-md mt-4">
-                Contamos con equipo especializado formado por médicos, <br />
-                psicólogos y psiquiatras, trabajando con cada una de las <br />
+                Contamos con equipo especializado formado por médicos,
+                psicólogos y psiquiatras, trabajando con cada una de las
                 personas, evaluando su salud mental y emocional.
             </p>
         ),
@@ -29,8 +29,8 @@ const objects = [
         img: 'espiritual.png',
         description: (
             <p className="text-sm lg:text-lg md:text-md mt-4">
-                Buscamos el desarrollo espiritual de cada uno de los individuos <br />
-                en tratamiento, lo cual ayuda en gran medida al manejo de los <br />
+                Buscamos el desarrollo espiritual de cada uno de los individuos
+                en tratamiento, lo cual ayuda en gran medida al manejo de los
                 síntomas de abstinencia.
             </p>
         ),
@@ -40,8 +40,8 @@ const objects = [
         img: 'social.png',
         description: (
             <p className="text-sm lg:text-lg md:text-md mt-4">
-                Cada persona puede reintegrarse a la sociedad, al trabajo y a <br />
-                las relaciones humanas, con el apoyo y seguimiento de nuestros <br />
+                Cada persona puede reintegrarse a la sociedad, al trabajo y a
+                las relaciones humanas, con el apoyo y seguimiento de nuestros
                 consejeros especializados.
             </p>
         ),
@@ -50,9 +50,9 @@ const objects = [
 
 export default function SpecificObjectives() {
     return (
-        <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2  grid-cols-1 place-items-center p-10">
+        <div className="grid lg:gap-4 lg:grid-cols-2 md:grid-cols-2  grid-cols-1 place-items-center p-10">
             {objects.map((objective, index) => (
-                <div className='mb-9' key={objective.title + index}>
+                <div className='p-5 max-w-[90%]' key={objective.title + index}>
                     <h1 className="text-4xl font-bold mb-9">
                         {objective.title}
                     </h1>
