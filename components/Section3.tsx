@@ -5,14 +5,14 @@ export default function Section3() {
         <div>
           <div className="grid lg:grid-rows-2 md:grid-rows-2 grid-rows-1 p-8">
             <div className="">
-              <p className="lg:text-4xl text-2xl">Atención 24hrs</p>
+              <p className="lg:text-4xl text-2xl">Atención las 24 horas, los 365 días del año</p>
               <p className="lg:text-6xl text-3xl">100% confidencial</p>
             </div>
             <div>
               <p className="text-sm md:text-md lg:text-2xl">
-                Ofrecemos un tratamiento en un luga seguro,<br/>
+                Ofrecemos un tratamiento en un lugar seguro.<br/>
                 cómodo, con personal altamente capacitado para<br/>
-                garantizar éxito en tu rehabilitacion.
+                garantizar éxito en tu REHABILITACION.
               </p>
             </div>
           </div>
