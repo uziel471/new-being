@@ -20,13 +20,14 @@ export function Section2() {
                     </p>
                     <div className="mt-15 lg:p-2">
                         <p className="text-sm lg:text-lg md:text-md">
-                            En Clínica Nuevo SER, al ser una clínica de
-                            rehabilitación, brindamos tratamientos primarios y
-                            secundarios, apoyando a las personas con patologías
-                            desde el primer momento hasta un seguimiento en
-                            recuperación. Todo en colaboración con la familia.
-                            <br />
-                            <br />
+                            30 años de experiencia al servicio de pacientes y
+                            familiares en el campo de la rehabilitación de personas
+                            con diversas patologías. Brindamos tratamientos primarios
+                            y secundarios. Atendemos de forma personalizadaal paciente
+                            desde el primer momento hasta que egresa.<br/>
+                            Damos apoyo y seguimiento en la fase de recuperación.<br/>
+                            La fortaleza primordial en todo el proceso es la
+                            colaboración de la familia.
                         </p>
                     </div>
                     <div className="mt-15 lg:p-2">
@@ -71,7 +72,7 @@ export function Section3() {
                     </h3>
                     <div className="">
                         <p className="text-sm md:text-md lg:text-lg text-white ">
-                            Consiste en un Proceso guiado de desintoxicación y
+                            Consiste en un proceso guiado de desintoxicación y
                             rehabilitación, durante este proceso, determinamos
                             cuál es el detonante de las conductas adictivas en
                             el individuo.
@@ -81,7 +82,7 @@ export function Section3() {
                     </div>
                     <div className="mt-15">
                         <p className="text-sm lg:text-lg md:text-md text-white">
-                            La motivación de cada persona es vial para generar
+                            La motivación de cada persona es vital para generar
                             habilidades de comunicación y la recuperación de
                             cada una de sus áreas de oportunidad como ser
                             humano, brindando atención personalizada durante su
