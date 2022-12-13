@@ -52,7 +52,7 @@ export default function Section1() {
               <p className="text-sm md:text-md lg:text-2xl ">
                 En Clínica Nuevo Ser brindamos un programa post-tratamiento
                 conocido como casa de medio camino, teniendo como objectivo un
-                seguimiento del individuo, trabajando en áreas multidiciplinarias
+                seguimiento del individuo, se trabaja en áreas multidiciplinarias
                 para el bienestar personal y de su entorno familiar.
                 <br/>
               </p>
