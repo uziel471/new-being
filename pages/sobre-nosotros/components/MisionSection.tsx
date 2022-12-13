@@ -22,8 +22,8 @@ export default function MisionSection() {
                 <div className='p-10 lg:p-20'>
                     <h1 className="text-4xl text-white font-bold">Misión</h1>
                     <p className="lg:text-lg md:text-md text-sm mt-4 text-white">
-                        En Clínica NUevo Ser creemos en la capacidad del ser humano
-                        para <b>trasnformarse a si mosmo y elevar su potencial al máximo</b>,
+                        En Clínica Nuevo Ser creemos en la capacidad del ser humano
+                        para <b>trasnformarse a si mismo y elevar su potencial al máximo</b>,
                         sabemos que nuestros pacientes y sus familias buscan tranquilidad
                         y entendimiento, así como una solución efectiva para liberarse y
                         Reintegrarse a la vida.
