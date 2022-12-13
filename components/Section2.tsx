@@ -10,14 +10,16 @@ export default function Section2() {
         <div className="grid lg:grid-rows-3 md:grid-rows-3 grid-rows-1 justify-items-start p-2">
           <div className="text-white">
             <p className="lg:text-4xl text-2xl">Un equipo</p>
-            <p className="lg:text-6xl text-3xl">profesional y humano</p>
+            <p className="lg:text-4xl text-2xl">profesional y humano</p>
           </div>
           <div>
             <p className="text-sm md:text-md lg:text-2xl text-white">
-              Nuestro equipo multidisciplinario experto en,<br/>
-              tratamento de trastornos brindan atención<br/>
-              profesional, trato digno y calidad humana a cada <br/>
-              persona en tratamiento.
+             “Nuestro equipo multidisciplinario experto en<br/>
+              los diversos trastornos que, en un alto porcentaje,<br/> 
+              afectan la salud mental, emocional, familiar y social<br/>
+              de la población, brinda atención profesional<br/>
+              especializada mediante un trato digno y de<br/>
+              calidad humana a cada persona en tratamiento”
             </p>
           </div>
           <div>
