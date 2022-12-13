@@ -22,7 +22,7 @@ export default function StepsSection() {
                         <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             1
                         </p>
-                        <p className="text-3xl text-cyan-300">INFORMATE</p>
+                        <p className="text-3xl text-cyan-300">INFÓRMATE</p>
                         <p className="text-3xl text-cyan-300"><br /></p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function StepsSection() {
                         <p className="text-3xl mb-4 border-cyan-300 text-cyan-300">
                             3
                         </p>
-                        <p className="text-3xl text-cyan-300">INTERVENCION <br /> OPORTUNA</p>
+                        <p className="text-3xl text-cyan-300">INTERVENCIÓN <br /> OPORTUNA</p>
                     </div>
                 </div>
                 <div className="place-items-center text grid grid-rows-2 grid-flow-col gap-4">
