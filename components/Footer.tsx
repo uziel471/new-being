@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="text-sm md:text-md lg:text-lg underline decoration-solid">
           <a href="https://goo.gl/maps/JuwPzTa67vbmvDh8A">
           Calle Londres #3551, Sección Costa Azul, Playas<br/>
-          de Tijuana, C.O22506, Tijuana, B.C.México.
+          de Tijuana, C.P. 22506, Tijuana, B.C.México.
           </a>
         </p>
       </div>
