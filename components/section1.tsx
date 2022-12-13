@@ -7,10 +7,16 @@ export default function Section1() {
           <p className="lg:text-4xl md:text-2xl text-xl">de trastornos y salud mental</p>
         </div>
         <div>
+      <p className="lg:text-5xl md:text-2xl text-2xl">Contamos con 30 años de experiencia.</p>
+      </div>
+        <div>
           <p className="lg:text-2xl text-sm md:text-md">
-            Clínica privada para el tratamiento de trastornos<br/>
-            de personalidad, salud mental y<br/>
-            codependencia en Tijuana, México.
+            Al servicio y cuidado de personas que padecen<br/>
+            trastornos de personalidad, problemas de salud mental<br/>
+            y codependencia.<br/>
+            Formamos una alianza poderosa entre la ciencia aplicada<br/>
+            a la salud mental, la ética profesional y el compromiso<br/>
+            responsable de los familiares de nuestros pacientes.
           </p>
         </div>
       </div>
