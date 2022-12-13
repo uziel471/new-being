@@ -65,7 +65,7 @@ function Contact(){
         <div className="flex flex-col py-2">
           <textarea
             id="message"
-            placeholder="¿Cuál es tu situacíon?"
+            placeholder="¿Cuál es tu situación?"
             className="rounded-3xl mt-2  p-4 focus:border-blue-500 text-xl focus:bg-gray-100 focus:outline-none"
             {...register('message')}
           />

@@ -6,21 +6,21 @@ const steps = [
     {
         key: 'step1',
         title: 'Paso 1',
-        buttonText: 'Mas informacion',
+        buttonText: 'Más información',
         redirect: '/trastornos',
         description: (
             <p className="text-[16px] lg:pr-[300px]">
-                <b>El primer paso ya lo has dado,</b> estas en busca de
-                informacion y has
-                llegado al lugar correcto.
+                <b>El primer paso ya lo has dado.</b> Tenemos la información
+                oportuna y con fundamento científico basado
+                en 30 años de experiencia.
                 <br />
-                Sabemos que no es facil, y en este momento el futuro parece
+                Sabemos que no es fácil, y en este momento el futuro parece
                 incierto,
                 queremos ayudarte a resolver cualquier duda con respecto a tu{' '}
-                situacion y como resolverla. <br />
+                situación y como resolverla. <br />
                 <br />
                 <b>
-                    Conoce mas acerca de los signos, sintomas y consecuencias.
+                    Conoce más acerca de los signos, síntomas y consecuencias.
                 </b>
             </p>
         ),
@@ -28,23 +28,22 @@ const steps = [
     {
         key: 'step2',
         title: 'Paso 2',
-        buttonText: 'Contactanos',
+        buttonText: 'Contáctanos',
         redirect: '',
         description: (
             <p className="text-[16px] lg:pr-[300px]">
-                Ahora que conoces mas de tu situacion es importante que
-                <b>contactes</b> a uno de nuestros profesionales para que te
-                asesore y
-                responda a todas tus preguntas. <br />
+                Es importante que conozcas más sobre tu situación,
+                es el momento para que contactes a uno de nuestros
+                especialistas en el tema de trastronos. Ella o él
+                te asesorarán y responderan a tus preguntas.<br />
                 <br />
-                Ya sea que tu familiar no acepte ayuda o si lo haga, uno de
-                nuestros
-                profesionales te asesorara en la metodologia de intervencion
-                para
-                lograr, un ingreso volutario y a si aumentar las posibilidades
-                de una
-                rehabilitacion exitosa,{' '}
-                <b>llamanos ahora para solucionar tu situacion.</b>
+                Puede ser el caso de que sea un ser querido quién
+                requiera ayuda, tal vez acepte la ayuda o bien la
+                rechace, es importante que uno de nuestros profesionales
+                te asesore respecto a la metodología y proceso adecuado
+                para lograr una intervención profesional con dignidad y
+                respeto y por consiguiente un ingreso voluntario.
+                Estamos a la espera de tu llamada<br />
             </p>
         ),
     },
@@ -52,45 +51,43 @@ const steps = [
         key: 'step3',
         title: 'Paso 3',
         redirect: '/tratamientos',
-        buttonText: 'Mas informacion',
+        buttonText: 'Más información',
         description: (
             <p className="text-[16px] lg:pr-[300px]">
-                La intervencion oportuna es la clave para{' '}
-                <b> solucion efectiva y a </b>
+                La intervención oportuna es la clave para{' '}
+                <b> solución efectiva y a </b>
                 <b>largo plazo.</b> <br />
                 <br />
-                Sabemos que hablar sobre los trastornos con un familiar no es tarea sencilla{' '}
+                Sabemos que hablar sobre los trastornos con un familiar{' '}
                 no es tarea sencilla, es por eso que contamos con especialistas
                 en
-                intervencion en crisis, quienes desarrollan junto contigo un
+                intervención en crisis, quienes desarrollan junto contigo un
                 plan
-                individualizado para una <b>intervencion exitosa</b> y asi
+                individualizado para una <b>intervención exitosa</b> y asi
                 lograr un <b>ingreso</b>
-                <b>voluntario.</b>
+                <b>{' '}voluntario.</b>
             </p>
         ),
     },
     {
         key: 'step4',
         title: 'Paso 4',
-        buttonText: 'Mas informacion',
+        buttonText: 'Más información',
         redirect: '/tratamientos',
         description: (
             <p className="text-[16px] lg:pr-[300px]">
-                Nuestros tratamientos son efectivos por que{' '}
-                <b>trabajamos junto con la </b>
-                <b>persona y su familia </b> en todas las áreas de su vida.{' '}
+                La efectividad de nuestros tratamientos obedece{' '}
+                a que tienen una base científica, además
+                contamos con 30 años de experienciar profesional
+                y lo más importante, establecemos una alianza
+                altamente responsible entre el paciente, su familia
+                y nuestro equipo de profesionales.{' '}
                 <br />
                 <br />
-                En CLINICA NUEVO SER contamos con una <b>
-                    amplia experiencia{' '}
-                </b>{' '}
-                en el tratamiento integral a todo tipo de
-                trastornos de personalidad, atendiendo de forma{' '}
-                <b>individualizada</b>
-                todas las áreas del ser humano, su salud mental, física,
-                espiritual y la
-                familia. <br />
+                La atención integral está enfocada al paciente{' '}
+                y a su familia resaltando el cuidado mental, 
+                físico y spiritual de los involucrados en el 
+                proceso de rehabilitación.{' '}
                 <br />
                 <b>
                     Conoce nuestros tratamientos y las soluciones que podemos
