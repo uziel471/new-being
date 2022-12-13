@@ -20,10 +20,11 @@ export default function MainImage() {
                         sentido humano
                     </h1>
                     <p className="text-sm md:text-md lg:text-lg text-shadow-3xl">
-                        En Clínica Nuevo Ser adecuamos cada uno de <br />
-                        nuestros programas terapéuticos, con nuestras <br />
-                        instalaciones equipadas y adecuadas, cumpliendo <br />
-                        las necesidades de los individuos.
+                        En Clínica Nuevo Ser adecuamos cada uno de nuestros tratamientos <br />
+                        y programas terapéuticos según las necesidades de cada paciente <br />
+                        y familia. La actualización profesional de nuestro personal, <br />
+                        así como el equipamiento de nuestras instalaciones son <br />
+                        prioridad en nuestro equipo. 
                     </p>
                 </div>
             </div>
