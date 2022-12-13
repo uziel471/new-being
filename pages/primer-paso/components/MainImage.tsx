@@ -20,15 +20,15 @@ export default function MainImage() {
                         hacia una vida libre
                     </h3>
                     <p className="text-sm md:text-xl md:pt-4">
-                        Estamos aqui para ayudarte en tu tratamiento, sabemos que
+                        Estamos <b>aqui</b> para ayudarte en tu tratamiento, sabemos que
                         este
                     </p>
                     <p className="text-sm md:text-xl">
-                        primer paso es dificil de tomar, por lo que si tienes alguna
+                        primer paso es <b>difícil</b> de tomar, por lo que si tienes alguna
                         duda o
                     </p>
                     <p className="text-sm md:text-xl">
-                        preocupacion no dudes en contactarte con nosotros.
+                        <b> preocupación</b> no dudes en contactarte con nosotros.
                     </p>
                 </div>
             </div>
