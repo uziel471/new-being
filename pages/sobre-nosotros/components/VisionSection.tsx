@@ -21,11 +21,9 @@ export default function VisionSection() {
                 <div className="p-10 lg:p-20">
                     <h1 className="text-4xl font-bold mb-10">Visión</h1>
                     <p className="lg:text-lg sm:text-sm">
-                        Gracias a nuestros tratamientos innovadores, servicio integral,
-                        personal altamente capacitado e instalaciones óptimas logramos
-
-                        ofrecer soluciones efectivas en la recuperación de las trastornos y
-                        salud mental a largo plazo.
+                        En Clínica Nuevo Ser contamos con una amplia experiencia en el tratamiento
+                        integral de trastotrnos de personalidad, atendido de forma individaulizada
+                        todas las areas del ser humano, su salud mental, fisica, espiritual y la familia.
                     </p>
                 </div>
             </div>
