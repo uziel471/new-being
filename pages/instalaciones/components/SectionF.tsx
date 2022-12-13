@@ -16,8 +16,8 @@ export default function SectionF() {
             </p>
             <br />
             <p className="underline decoration-solid">
-              <a href="https://www.google.com/maps/place/Parral+3041,+Sta+Lucia,+22705+Rosarito,+B.C.,+M%C3%A9xico/@32.4048869,-117.0603072,17z/data=!3m1!4b1!4m5!3m4!1s0x80d936b493327e4d:0x1b83aa2e94b9bfba!8m2!3d32.404827!4d-117.060246">
-                Calle Londres #3551, Sección Costa Azul, Playas de Tijuana, C.P. 22506, Tijuana, B.C. México.
+              <a href="https://goo.gl/maps/y4LrC9Ug4kXDB7KW8">
+                P. Ensenada 1384, Playas, Jardines Playas de Tijuana, 22500 Tijuana, B.C.
               </a>
             </p>
           </div>

@@ -7,7 +7,7 @@ export default function Section1(){
     pregunta1: '¿QUÉ ES LA CODEPENDENCIA?',
     respuesta1: [
       'La codependencia puede ocurrir en cualquier persona que está en contacto con la trastorno de otra persona, ya sea un familiar, amigo, compañero, pareja que sufra de trastorno.',
-      'Además existen otros desordenes de conducta y enfermedades que pueden generar codependencia, tales como la esquizofrenia, la violencia, el maltrato y las neurosis.',
+      'Además existen otros desórdenes de conducta y enfermedades que pueden generar codependencia, tales como la esquizofrenia, la violencia, el maltrato y las neurosis.',
       'Toda persona expuesta a estos desórdenes, puede desarrollar codependencia.'
     ],
     pregunta2: '¿QUÉ PUEDE OCASIONAR?',
