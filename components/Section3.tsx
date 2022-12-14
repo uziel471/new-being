@@ -7,6 +7,7 @@ export default function Section3() {
             <div className="">
               <p className="lg:text-4xl text-2xl">Atención las 24 horas, los 365 días del año</p>
               <p className="lg:text-6xl text-3xl">100% confidencial</p>
+              <br/>
             </div>
             <div>
               <p className="text-sm md:text-md lg:text-2xl">
