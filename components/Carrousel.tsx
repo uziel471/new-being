@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function Carrousel() {
     return (
-        <div className="w-full">
+        <div className="w-full" style={{ maxWidth: '60%', maxHeight: '200px' }}>
             <Carousel showThumbs={false}>
                 <div>
                     <img src="/../assets/c1.jpg" className="opacity-90" />
