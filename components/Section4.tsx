@@ -13,6 +13,7 @@ export default function Section4() {
             </div>
             <div>
               <p className="lg:text-lg md:text-md text-sm">
+                <br/>
                 Contáctanos y permite que uno de nuestros,<br/>
                 asesores te guíe en el proceso hacia una<br/>
                 recuperación efectiva.
