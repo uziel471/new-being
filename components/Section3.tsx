@@ -6,13 +6,15 @@ export default function Section3() {
           <div className="grid lg:grid-rows-2 md:grid-rows-2 grid-rows-1 p-8">
             <div className="">
               <p className="lg:text-4xl text-2xl">Atención las 24 horas, los 365 días del año</p>
+              <br/>
               <p className="lg:text-6xl text-3xl">100% confidencial</p>
+              <br/>
             </div>
             <div>
               <p className="text-sm md:text-md lg:text-2xl">
                 Ofrecemos un tratamiento en un lugar seguro.<br/>
                 cómodo, con personal altamente capacitado para<br/>
-                garantizar éxito en tu REHABILITACION.
+                garantizar éxito en tu <b>rehabilitación.</b>
               </p>
             </div>
           </div>
