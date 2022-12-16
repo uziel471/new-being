@@ -13,7 +13,7 @@ export default function PlacesSection() {
                     loading='lazy'
                 />
             </div>
-            <div className="w-screen h-screen  lg:pl-36 flex flex-col justify-center">
+            <div className="w-screen h-screen  lg:pl-36 md:pl-[60px] flex flex-col justify-center">
                 <h3 className="md:text-5xl sm:text-3xl text-shadow-3xl font-bold">
                     3 Clínicas de atención
                 </h3>
