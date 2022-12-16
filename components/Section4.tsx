@@ -29,7 +29,7 @@ export default function Section4() {
                 </Link>
               </div>
               <div className="pb-5">
-                <Link href="tel:+52 664 143-0939">
+                <Link href="tel:+1 619 734-2339">
                   <button className="outline outline-offset-4 p-2 rounded-full text-sm outline-[#00C1DE]">
                     <p className="text-white">US +1 (619) 734-2339 &nbsp; </p>
                   </button>
