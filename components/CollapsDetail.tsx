@@ -66,7 +66,7 @@ export default function CollapsDetail({
                   <div className="grid lg:grid-rows-1 grid-rows-1 justify-items-center">
                     <div className="lg:p-10 md:p-5">
                       <h3 className="flex p-4 text-3xl text-[#15284B]"> {object.pregunta3} </h3>
-                      {object.respuesta3.map((item, index) => (
+                      {object.respuesta3?.map((item, index) => (
                         <p key={index} className="text-white lg:text-lg md:text-md text-sm">
                           {item}
                         </p>

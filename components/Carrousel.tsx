@@ -7,7 +7,7 @@ export default function Carrousel() {
         <div className="lg:max-h-[800px] md:max-h-[400px]">
             <Carousel showThumbs={false}>
                 <div className="lg:max-h-[800px] md:max-h-[400px]">
-                    <img src="/../assets/c1.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
+                    <img style={{ padding: '0 2% 0 2%' }} src="/../assets/c1.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
                     <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-4/6 lg:ml-32 md:ml-20 md:mt-[100px] text-white lg:mt-96 ml-10 mt-[45px] w-4/5">
                         <p className="lg:text-4xl md:text-2xl text-xl text-left lg:w-3/6 text-shadow-xl">
                             <b>En México, el 17% de las personas presenta al menos un trastorno mental, y una de cada cuatro lo padecerá como mínimo una vez en su vida.</b>
@@ -18,7 +18,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div className="lg:max-h-[800px] md:max-h-[400px]">
-                    <img src="/../assets/c2.jpg" className="opacity-100 lg:max-h-[800px] md:max-h-[400px]" />
+                    <img style={{ padding: '0 2% 0 2%' }} src="/../assets/c2.jpg" className="opacity-100 lg:max-h-[800px] md:max-h-[400px]" />
                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-3/6 lg:ml-32 md:ml-20 md:mt-[100px] text-white lg:mt-96 ml-10 mt-[45px] w-4/5">
                         <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Te acompañamos en tu proceso de recuperación
@@ -31,7 +31,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div className="lg:max-h-[800px] md:max-h-[400px]">
-                    <img src="/../assets/c3.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
+                    <img style={{ padding: '0 2% 0 2%' }} src="/../assets/c3.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-3/6 lg:ml-32 md:ml-20 md:mt-[100px] text-white lg:mt-96 ml-10 mt-[45px] w-4/5">
                         <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">¿Por qué nosotros?</p>
                         <p className="text-white lg:text-2xl lg:mt-12 md:mt-6 text-sm text-left text-shadow-3xl">
@@ -43,7 +43,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div className="lg:max-h-[800px] md:max-h-[400px]">
-                    <img src="/../assets/c4.jpg" className="opacity-100 lg:max-h-[800px] md:max-h-[400px]" />
+                    <img style={{ padding: '0 2% 0 2%' }} src="/../assets/c4.jpg" className="opacity-100 lg:max-h-[800px] md:max-h-[400px]" />
                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-3/6 lg:ml-32 md:ml-20 md:mt-[100px] text-white lg:mt-96 mt-[45px] w-4/5">
                         <p className="text-white lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Tengo un familiar con trastornos ¿Cómo puedo ayudar?
@@ -56,7 +56,7 @@ export default function Carrousel() {
                     </div>
                 </div>
                 <div className="lg:max-h-[800px] md:max-h-[400px]">
-                    <img src="/../assets/c5.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
+                    <img style={{ padding: '0 2% 0 2%' }} src="/../assets/c5.jpg" className="opacity-90 lg:max-h-[800px] md:max-h-[400px]" />
                    <div className="absolute inset-y-0 left-0 md:w-2/5 lg:w-3/6 lg:ml-32 md:ml-20 md:mt-[100px] text-white lg:mt-96 ml-10 mt-[45px] w-4/5">
                         <p className="lg:text-4xl md:text-3xl text-xl text-left lg:w-3/6 text-shadow-3xl">
                             Conoce nuestras instalaciones
