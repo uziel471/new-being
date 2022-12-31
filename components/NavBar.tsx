@@ -16,26 +16,27 @@ export default function NavBar() {
     },
     {
       name: "Tratamientos",
-      isSubMenu: true,
-      href: "/",
-      childrens: [
-        {
-          name: "Trastornos",
-          href: "/trastornos",
-        },
-        {
-          name: "Enfermedades mentales",
-          href: "/enfermedades-mentales",
-        },
-        {
-          name: "Trastornos alimenticios",
-          href: "/trastornos-alimenticios",
-        },
-        {
-          name: "Codependencia",
-          href: "/codependencia",
-        }
-      ]
+      isSubMenu: false,
+      href: "/trastornos",
+      childrens: [],
+      // childrens: [
+      //   {
+      //     name: "Trastornos",
+      //     href: "/trastornos",
+      //   },
+      //   {
+      //     name: "Enfermedades mentales",
+      //     href: "/enfermedades-mentales",
+      //   },
+      //   {
+      //     name: "Trastornos alimenticios",
+      //     href: "/trastornos-alimenticios",
+      //   },
+      //   {
+      //     name: "Codependencia",
+      //     href: "/codependencia",
+      //   }
+      // ]
     },
     {
       name: "La Clinica",
