@@ -93,13 +93,181 @@ export default function Section1() {
         'Desorganización cognitiva (presentar pensamientos desorganizados o poco coherentes).'
       ],
       image: 'Patologia.jpg'
+    },
+    {
+      id: 6,
+      title: 'ESQUIZOFRENIA',
+      pregunta1: '¿QUÉ ES LA ESQUIZOFRENIA?',
+      respuesta1: [
+        'La esquizofrenia es una enfermedad mental en la que la realidad de la persona se ve alterada, pues sufre de alucinaciones, delirios y trastornos del pensamiento. Esta patología debe de ser tratada desde que se diagnostica hasta el resto de vida de la persona.',
+        'Esta enfermedad mental afecta el funcionamiento diario del individuo, por lo que es de suma importancia su tratamiento oportuno y temprano.',
+      ],
+      pregunta2: '¿QUÉ PUEDE OCASIONAR?',
+      respuesta2: [
+        'Alucinaciones auditivas y/o visuales.',
+        'Deterioro del lenguaje y cognición, que se manifiesta a través de dificultades para comunicarse.',
+        'Inestabilidad emocional, comportamientos obsesivos.',
+        'Aislamiento y problemas de socialización.',
+        'Poner en riesgo la vida de la persona.',
+        'Problemas familiares.'
+      ],
+      pregunta3: '¿Cómo identificarlo?',
+      respuesta3: [
+        'No existen síntomas cuya aparición sea suficiente para emitir el diagnóstico, sino que este debe ser realizado por un especialista. Sin embargo, algunas de las características de la esquizofrenia son las siguientes:',
+      ],
+      preguntas: [
+       'Delirios (estos se presentan de manera negativa).',
+       'Alucinaciones, estas se pueden experimentar a través de cualquiera de los sentidos.',
+       'Aislamiento.',
+       'Ideas obsesivas basadas en hechos falsos o infundidos.',
+       'Comportamiento extravagante o violento, apatía (manifestándose como una falta de energía, motivación e interés)',
+       'Presencia de un deterioro laboral o social.',
+       'Lenguaje y pensamiento desorganizado.',
+      ],
+      image: 'Esquizofrenia.jpg'
+    },
+    {
+      id: 7,
+      title: 'BULIMIA',
+      pregunta1: '¿QUÉ ES LA BULIMIA?',
+      respuesta1: [
+        'La bulimia nerviosa es un trastorno alimenticio que se caracteriza por tener episodios de ingesta excesiva de alimentos en poco tiempo, posteriormente causando una preocupación y ansiedad constante a aumentar de peso, recurriendo a inducir el vómito o al uso de laxantes.',
+        'Las personas que presentan este trastorno tienen una idea distorsionada de su cuerpo, por lo que les lleva a pensamientos obsesivos del mismo.',
+        'En algunos casos puede no ser tan evidente, debido a que la persona no presenta una apariencia o delgadez extrema.'
+      ],
+      pregunta2: '¿QUÉ PUEDE OCASIONAR?',
+      respuesta2: [
+        'Problemas cardiacos.',
+        'Daños permanentes en el esófago y pancreas.',
+        'Problemas dentales.',
+        'Depresión y ansiedad.',
+        'Alteraciones en la sangre y cambios hormonales.',
+        'Estreñimiento crónico.'
+      ],
+      pregunta3: '¿Cómo identificarlo?',
+      respuesta3: [
+        'Algunas personas por el miedo obsesivo que le tienen a aumentar de peso recurren a mentir o a ocultar la gravedad del problema, por lo que si reconoces alguno de los siguientes síntomas no dudes en ponerte en contacto con nosotros.',
+      ],
+      preguntas: [
+       'Constante miedo a aumentar de peso.',
+       'Dolores de cabeza frecuentes.',
+       'Episodios de comer cantidades excesivas de comida en un momento.',
+       'Provocar el vómito o hacer ejercicio excesivo después de un atracón.',
+       'Uso de laxantes, diuréticos o realizarse enemas.',
+       'Pérdida o debilitamiento de cabello, problemas dentales, cara hinchada.',
+       'Irregularidades en el ciclo menstrual.',
+       'Ir al baño frecuentemente, especialmente después de las comidas.'
+      ],
+      image: 'Bulimia.jpg'
+    },
+    {
+      id: 8,
+      title: 'CODEPENDENCIA',
+      pregunta1: '¿QUÉ ES LA CODEPENDENCIA?',
+      respuesta1: [
+        'La codependencia puede ocurrir en cualquier persona que está en contacto con la trastorno de otra persona, ya sea un familiar, amigo, compañero, pareja que sufra de trastorno.',
+        'Además existen otros desórdenes de conducta y enfermedades que pueden generar codependencia, tales como la esquizofrenia, la violencia, el maltrato y las neurosis.',
+        'Toda persona expuesta a estos desórdenes, puede desarrollar codependencia.'
+      ],
+      pregunta2: '¿QUÉ PUEDE OCASIONAR?',
+      respuesta2: [
+        'Sufrir o cometer violencia física y emocional.',
+        'Baja autoestima.',
+        'Depresión y ansiedad.',
+        'Mala calidad de vida.',
+        'Repetir patrones y que tus hijos también lo hagan.',
+        'Relaciones inestables y poco saludables.'
+      ],
+      pregunta3: 'Identifica el problema',
+      respuesta3: [
+        'Muchas veces alguien que ha desarrollado codependencia por crecer en una ambiente disfuncional adictivo, no manifiesta grandes síntomas hasta que se casa o forma una relación de pareja.'
+      ],
+      preguntas: [
+        'Dificultad para establecer y mantener relaciones íntimas sanas.',
+        'Conductas compulsivas.',
+        'Necesidad obsesiva de controlar la conducta de otros',
+        'Sentirse responsables por las conductas de otros.',
+        'Dependencia de la aprobación externa.',
+        'Profundos sentimientos de incapacidad.'
+      ],
+      image: 'Codependencia2.jpg'
+    },
+    {
+      id: 9,
+      title: 'TRASTORNO LIMITE DE LA PERSONALIDAD',
+      pregunta1: '',
+      respuesta1: [
+        'El Trastorno Límite de la Personalidad es una afección mental que se caracteriza por un patrón continuo de estados de ánimo, autoimagen y comportamientos inestables. Los pacientes con TLP tienen intolerancia a la soledad; hacen esfuerzos frenéticos para evitar un abandono y generan crisis, como tener gestos suicidas de una manera que invita al rescate y al cuidado por otros. ',
+        'Las personas con TLP pueden tener cambios de estado de ánimo y mostrar incertidumbre sobre cómo se ve a sí mismo y su papel en el mundo. Como resultado, sus intereses y valores pueden cambiar rápidamente. Los pacientes con este trastorno, tienden a ver las cosas de manera extrema, como si todo fuera bueno o todo fuera malo. Sus opiniones de otras personas también pueden cambiar rápidamente. Estos cambios en los sentimientos pueden llevar a relaciones intensas e inestables. '
+      ],
+      pregunta2:'Otras señales o síntomas pueden incluir',
+      respuesta2:[
+        'Esfuerzos para evitar el abandono real o imaginario, como iniciar rápidamente relaciones íntimas (físicas o emocionales) o cortar la comunicación con alguien por miedo a ser abandonado. ',
+        'Un patrón de relaciones intensas e inestables con familiares, amigos y seres queridos, que en general cambia de la cercanía y amor extremos (idealización) a una aversión o ira extremas (devaluación). ',
+        'Autoimagen o sentido de identidad distorsionado e inestable. ',
+        'Comportamiento impulsivo y con frecuencia arriesgado, como tener sexo sin protección, abuso de sustancias, conducir de forma imprudente, etc ',
+        'Comportamientos autodestructivos, como cortarse. ',
+        'Pensamientos recurrentes de comportamientos suicidas o amenazas de suicidio. ',
+        'Ánimos intensos y muy cambiantes, con episodios que duran desde unas pocas horas hasta varios días. ',
+        'Sentimiento crónico de vacío.  ',
+        'Ira intensa e inapropiada o problemas para controlar la ira. ',
+        'Dificultad para confiar, que a veces va acompañada de miedo irracional a las intenciones de otras personas. ',
+        'Sentimientos de disociación, como sentirse distanciado de sí mismo, observarse desde fuera del propio cuerpo o perder contacto con la realidad. ',
+      ],
+      pregunta3: '',
+      respuesta3: [],
+      preguntas: [],
+      image: 'Codependencia2.jpg'
+    },
+    {
+      id: 10,
+      title: 'TRASTORNO DE DEFICIT DE ATENCION E HIPERACTIVIDAD',
+      pregunta1: '',
+      respuesta1: [
+        'El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación  de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.'
+      ],
+      pregunta2: 'El trastorno por déficit de atención e hiperactividad puede dificultarle la vida; este trastorno se relaciona con',
+      respuesta2: [
+        'Bajo desempeño escolar/laboral.',
+        'Desempleo.',
+        'Problemas económicos.',
+        'Problemas con la ley.',
+        'Consumo inadecuado de alcohol u otras sustancias.',
+        'Accidentes frecuentes.',
+        'Relaciones inestables.',
+        'Problemas de salud física y mental. ',
+        'Baja autoestima.',
+        'Intentos de suicidio.',
+      ],
+      pregunta3: 'Sintomas',
+      respuesta3: [
+        'Los síntomas comienzan en la primera infancia y continúa en la adultez. En algunos casos, el TDAH no se reconoce ni se diagnostica hasta que la persona es un adulto; los síntomas en adultos pueden no ser tan claros como los sintomas en niños. En adultos la hiperactividad puede disminuir, pero los problemas con la impulsividad, inquietud y la dificultad para prestar atención pueden continuar.',
+	      'Algunas personas con TDAH tienen menso síntomas a medida que van creciendo, sin embargo algunos pacientes siguen teniendo síntomas importantes que interfieren en su vida cotidiana. Los sintomas pueden oscilar entre leves y graves.',
+	      'Muchos adultos con TDAH desconocen que padecen de este trastorno, solo conocen que sus tareas cotidianas se han vuelto complicadas de realizar; un adulto puede tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas limite y se olvidan de reuniones o eventos importantes; la incapacidad para controlar los impulsos pueden oscilar entre tener impaciencia y tener cambios de humor y arrebatos de ira.',
+        'Algunos de los síntomas del TDAH en adultos son los siguientes:',
+      ],
+      preguntas: [
+        'Impulsividad.',
+        'Desorganización y problemas para establecer prioridades.',
+        'Escasas habilidades para administrar el tiempo.',
+        'Problemas para concentrarse en una tarea.',
+        'Dificultades para realizar múltiples tareas a la vez.',
+        'Actividad excesiva e inquietud.',
+        'Escasa planificación.',
+        'Baja tolerancia a la frustración.',
+        'Cambios de humor frecuentes.',
+        'Problemas para realizar tareas y terminarlas. ',
+        'Temperamento irascible.',
+        'Problemas para enfrentar el estrés.',
+      ],
+      image: 'Codependencia2.jpg'
     }
   ];
   return (
     <div className="lg:rounded-br-[430px] bg-[#15284B]">
       <div className="">
         <div className="p-10">
-          <h1 className="text-white text-3xl">Tipos de trastornos</h1>
+          <h1 className="text-white text-3xl">Tipos de tratamientos</h1>
         </div>
         <CollapsDetail
           array={tiposAdicciones}
