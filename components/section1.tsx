@@ -3,7 +3,7 @@ export default function Section1() {
     <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-4 place-items-center font-sans lg:p-20 md:p-6 p-10">
       <div className="grid">
         <div className="pb-8">
-          <p className="lg:text-5xl md:text-3xl text-2xl">Contamos con 30 años de experiencia</p>
+          <p className="lg:text-5xl md:text-3xl text-2xl">Contamos con 30 años de experiencia.</p>
         </div>
         <div>
           <p className="lg:text-2xl text-sm md:text-md">
