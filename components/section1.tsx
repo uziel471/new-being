@@ -9,11 +9,9 @@ export default function Section1() {
           <p className="lg:text-2xl text-sm md:text-md">
             Clínica privada para el tratamiento de trastornos<br/>
             de personalidad, salud mental y codependencia en Tijuana, México.<br/>
-            Al servicio y cuidado de personas que padecen trastornos de personalidad,
-            problemas de salud mental y codependencia.<br/>
-            Formamos una alianza poderosa entre la ciencia aplicada<br/>
-            a la salud mental, la ética profesional y el compromiso<br/>
-            responsable de los familiares de nuestros pacientes.<br/>
+            Formamos una alianza poderosa entre la ciencia aplicada
+            a la salud mental, la ética profesional y el compromiso
+            responsable de los familiares de nuestros pacientes.
             <br/>
           </p>
         </div>
